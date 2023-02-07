@@ -9,22 +9,31 @@
             <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         </head>
-            <body>
-                <header> 
-                    <nav>
-                     <img src="images\logo\Booki.png" alt="Logo Booki">
+        <body><!--partie visible de la page-->
+            <header> 
+                <nav>
+                     <img src="images\logo\Booki.png" alt="Logo Booki">git
                         <ul>
                             <li>Hébergement</li>
                             <li>Activités</li>
                         </ul>
-                    </nav>
+                </nav>
+            </header>
+            <!--Main-->
                     <h1>Trouvez votre hébergement pour des vacances de rêves </h1>
                     <P> En plein centre-ville ou en pleine nature </P>
-                    <div class="rechercher">
-                        <i class="fa-solid fa-location-dot"></i>
-                        <p>Marseille, France</p>
-                        <p> Rechercher</p>
-                    </div>
+                    <!--formulaire de recherche d'hébergement-->
+                        <div class="rechercher">
+                            <form method="get" action="">
+                                <label for="">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    </label>
+                                <input type="text">
+                                <input type="submit" value="Rechercher">
+                                <p> Rechercher</p>
+                            </form> 
+                        </div>
+                    <!--formulaire de recherche d'hébergement fin-->
                     <!--filtres: créer bouton pour chaqune des cathégorie-->
                     <div class="filtrage">
                         <ul>
@@ -35,14 +44,114 @@
                             <li><i class="fa-solid fa-dog"></i>Animaux autorisé</li> 
                          </ul>
                     </div>
-                <!--filtres: créer bouton pour chaqune des cathégorie-->
-                <p><i class="fa-thin fa-circle-info"></i> Plus de 500 logements sont disponibes dans cette ville</p>
-            </header>
-            
+                <!--filtres: créer bouton pour chaqune des cathégorie fin-->
+               <p> <i class="fa-thin fa-circle-info"></i>
+                    Plus de 500 logements diponibles dans cette ville
+                </p>
+                <!--section Logements-->
+                <section>
+                  <h1>Hébergements à Marseille</h1>
+                    <div class="element1">
+                        <img src="images\hebergements\4_small\marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Chambre de l'auberge La Canebière">
+                        <h3>Auberge La Canebière</h3>
+                        <p>Nuit a partir de 25€</p>
+                    </div>  
+                    <div class="element2">
+                        <img src="images\hebergements\4_small\fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Chambre hôtel du vieux Port">
+                        <h3>Hôtel du port</h3>
+                        <p>Nuit a partir de 52€</p>
+                    </div> 
+                    <div class="element3">
+                        <img src="images\hebergements\4_small\reisetopia-B8WIgxA_PFU-unsplash.jpg" alt=" Chambre hôtel les mouettes">
+                        <h3>Hôtel Les mouettes</h3>
+                        <p>Nuit a partir de 76€</p> 
+                    </div> 
+                    <div class="element4">
+                        <img src="images\hebergements\4_small\annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Chambre Hôtel de la mer">
+                        <h3>Hôtel de la mer</h3>
+                        <p>Nuit a partir de 46€</p>
+                    </div> 
+                    <div class="element5">
+                        <img src="images\hebergements\4_small\nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt=" Chambre hôtel le panier">
+                        <h3>Auberge le Panier</h3>
+                        Nuit a partir de 23€
+                    </div> 
+                    <div class="element6">
+                        <img src="images\hebergements\4_small\febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Chambre 2 lits simple hôtel chez Amina">
+                        <h3>Hôtel chez Amina</h3>
+                    <p>Nuit a partir de 96€</p>
+                    </div>
+                    <h2>Afficher plus</h2>
+                    <!--Aside les plus populaire-->
+                <aside>
+                <h1>Les plus populaires</h1>
+                    <div class="element7">
+                        <img src="images\hebergements\4_small\emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="chambre de l'hôtel soleil du matin">
+                       <h3>hôtel Le soleil du matin</h3>
+                       <p>Nuit a partir de 128€</p>
+                    </div>
+                    <div class="element8">
+                        <img src="images\hebergements\4_small\aw-creative-VGs8z60yT2c-unsplash.jpg" alt="">
+                       <h3>chambre d'hôte Au coeur de l'eau</h3>
+                       <p>Nuit a partir de 71€</p> 
+                    </div>
+                    <div class="element9">
+                        <img src="images\hebergements\4_small\febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Chambre lit double hôtel Bleu et Blanc">
+                        <h3>Hôtel Bleu et Blanc</h3>
+                        <p>Nuit a partir de 68€</p>
+                    </div>
+                </aside> 
+                <!--Aside les plus populaire-->
+                </section>
+                <!--section logements-->
+                <!--section activités-->
+                    <h1>Activités à Marseille</h1>
+                <section>
+                    <div class="Activites">
+                    <div class="element10">
+                        <img src=images\activites\4_small\reno-laithienne-QUgJhdY5Fyk-unsplash.jpg alt=" photo du vieux port de Marseille">
+                        <h3>Vieux-Port</h3>
+                    </div>
+                    <div class="element11">
+                        <img src="images\activites\4_small\paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt=" photo du Fort de Pomèques">
+                        <h3>Fort de Pomèques</h3>
+                    </div> 
+                    <div class="element12">
+                        <img src="images\activites\4_small\kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt=" photo du parc national des Calanques">
+                        <h3>Parc national des Calaques</h3>
+                    </div>
+                    <div class="element13">
+                        <img src="images\activites\4_small\florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Photo d'une vues sur Notre-dame-de-la-Garde">
+                        <h3>Notre-dame-de-la-Garde</h3>
+                    </div> 
+                 </div>   
+                </section>
+                <!--section activités-->
+            <!--Pied de page-->
+            <footer>
+         <div class="apropos">
+            <h2>À propos</h2>
+                <ul>
+                    <li>Fonctionnement du site</li>
+                    <li>Conditions générales</li>
+                    <li>Données et confidentialité</li>
+                </ul>
+        </div>
+         <div class="Nos hébergements">
+            <h2>Nos hébergements</h2>
+        <ul>
+            <li>Charte de qualité</li>
+            <li>Proposer votre hôtel</li>
+        </ul>
+        </div>
+         <div class="assistance">
+            <h2>Assistance</h2>
+            <ul>
+                <li>Centre d'aide</li>
+                <li>Nous contacter</li>
+            </ul>
+        </div>       
+            </footer>
         </body>
     
-    <!--Footer-->
-    <footer>
-
-    </footer>
 </html>
