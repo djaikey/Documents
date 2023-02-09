@@ -1,0 +1,16 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+.filtre-eco {
+    display: flex;
+    justify-content:space-between;
+}
+.hebergement {
+    display: flex;
+    flex-direction:column;
+}
