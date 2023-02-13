@@ -12,5 +12,48 @@ nav {
 }
 .hebergement {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
+    ;
+}
+.selection-hebergements {
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+}
+
+.hebergements-populaires {
+    display: flex;
+    flex-direction: row;
+}
+
+.selection-activites {
+    display: flex;
+    flex-direction: row;
+}
+
+footer {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.image-hebergement {
+    width: 200px;
+    height: 100px;
+}
+.article-populaire{
+    display: flex;
+    flex-direction: row;
+}
+
+.image-populaire {
+    width: 150px;
+    height: 150px;
+}
+.info-populaire{
+    display: flex;
+    flex-direction: column;
+}
+
+.image-activite {
+width: 250px;
+height: 300px;
 }
