@@ -1,3 +1,19 @@
+body {
+    margin: 0 ;
+    font-family: ;
+}
+
+.conteneur-limite {
+    max-width: 1400px;
+    margin: auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+img {
+    object-fit: cover;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -34,6 +50,7 @@ justify-content: space-between;
 .hebergements-populaires {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .selection-activites {
@@ -47,8 +64,8 @@ footer {
 }
 
 .image-hebergement {
-    width: 200px;
-    height: 100px;
+    width: 246px;
+    height: 124px;
     
 }
 .article-populaire{
@@ -57,8 +74,8 @@ footer {
 }
 
 .image-populaire {
-    width: 100px;
-    height: 105px;
+    width: 137px;
+    height: 144px;
    
 }
 .info-populaire{
@@ -67,7 +84,7 @@ footer {
 }
 
 .image-activite {
-width: 250px;
-height: 400px;
+width: 302px;
+height: 445px;
 /* erreur de mise en page des images avec object-fit:content */
 }
