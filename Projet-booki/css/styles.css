@@ -1,6 +1,8 @@
+/*par défaut*/
+
 body {
     margin: 0 ;
-    font-family: ralway sans-serif;
+    font-family: ralway 2px;
 }
 
 .conteneur-limite {
@@ -14,18 +16,28 @@ img {
     object-fit: cover;
 }
 
+/* en-tête de page*/
+
 header {
     display: flex;
     justify-content: space-between;
 }
+
+.logo-booki {
+    width: 61,09px;
+    height: 19px;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
 }
 
+/* section recherche*/
+
 form {
-display: flex;
-justify-items: center;
+    display: flex;
+    justify-items: center;
 }
 
 .recherches-filtres {
@@ -57,7 +69,10 @@ justify-items: center;
     border: solid 1px ;  
     border-radius: 0px 15px 15px 0px;
     border-color: #0065FC;
+    background-color: #0065FC;
 }
+
+/*filtres*/
 
 .filtre-eco {
     display: flex;
@@ -65,36 +80,17 @@ justify-items: center;
 }
 
 .filtre {
-display: flex;
-flex-direction: row;
-justify-content: center;
-width: 226px;
-height: 50px;
-border: solid 2px;
-border-radius: 25px 25px 25px 25px;
-border-color: #d9d9d9;
-}
-
-.hebergement {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border: 2px;
-}
-
-.selection-hebergements {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
-    width:750px ;
+    width: 226px;
+    height: 50px;
+    border: solid 2px;
+    border-radius: 25px 25px 25px 25px;
+    border-color: #d9d9d9;
 }
 
-.titre-icone {
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-}
+/*section hebergement et aside populaires*/
 
 .hebergements-populaires {
     display: flex;
@@ -102,38 +98,124 @@ justify-content: space-between;
     justify-content: space-between;
 }
 
-.selection-activites {
+
+/*hebergements*/
+
+.selection-hebergements {
     display: flex;
     flex-direction: row;
-  }
+    flex-wrap: wrap;
+    justify-content: center;
+ 
+}
+.hebergements {
+    width: 880px;
+    height: 626px;
+    background-color: #F2F2F2;
+    border-radius: 20px 20px 20px 20px;
+}
 
-footer {
-    display: grid;
-    grid-auto-flow: column;
+.hebergement {
+    width: 246 px;
+    height: 199px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px;
+    border-radius: 20px 20px 20px 20px;
 }
 
 .image-hebergement {
     width: 246px;
     height: 124px;
-    
+    border: solid 5px #FFFFFF;
+    border-radius: 20px 20px 0px 0px;
 }
+
+.info-hebergement {
+    background-color: #FFFFFF;
+    border: solid 5px #FFFFF;
+    border-radius: 0px 0px 20px 20px;
+}
+/*populaires*/
+
+.populaires {
+    width: 420px;
+    height: 625px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #F2F2F2;
+}
+
+.titre-icone {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .article-populaire{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    width: 343px;
+    height: 144px;
 }
 
 .image-populaire {
     width: 137px;
     height: 144px;
-   
+   border: solid 5px #FFFFFF;
+   border-radius: 20px 0px 0px 20px;
 }
+
 .info-populaire{
     display: flex;
     flex-direction: column;
+    border: solid 5px #FFFFFF;
+    border-radius: 0px 20px 20px 0px;
+    background-color: #FFFFFF;
 }
 
-.image-activite {
-width: 302px;
-height: 445px;
-/* erreur de mise en page des images avec object-fit:content */
+/*section activité*/
+
+.selection-activites {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+    border: ;
 }
+
+.activite {
+    width: 302px;
+    height:445px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: solid 1px #FFFFFF;
+    border-radius: 20px 20px 20px 20px;
+}
+
+  .image-activite {
+    width: 302px;
+    height: 445px;
+    border: solid 1px #FFFFFF;
+    border-radius: 20px 20px 0px 0px;
+    }
+
+
+/*pied de page*/
+
+footer {
+    display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+    width: 1339px;
+    height: 255px;
+}
+
+
+
+
+
+
+
+
