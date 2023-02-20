@@ -2,7 +2,7 @@
 
 body {
     margin: 0 ;
-    font-family: ralway 2px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .conteneur-limite {
@@ -14,6 +14,30 @@ body {
 
 img {
     object-fit: cover;
+}
+
+h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.notes {
+    display: flex;
+    flex-direction: row;
+    color: #0065FC;
+}
+
+.etoile {
+    color: #F2F2F2;
 }
 
 /* en-tête de page*/
@@ -29,6 +53,9 @@ header {
 }
 
 nav {
+    width: 113px;
+    height: 19px;
+    left: 138px;
     display: flex;
     justify-content: space-between;
 }
@@ -43,7 +70,7 @@ form {
 .recherches-filtres {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 
@@ -53,7 +80,7 @@ form {
     border: solid 1px;
     border-radius: 15px 0px 0px 15px;
     border-color: #F2F2F2;
-}
+    }
 
 .champs-recherche {
     width: 332px;
@@ -61,8 +88,6 @@ form {
     border: solid 1px;
     border-radius: 15px 15px 15pxd 15px;
     border-color: #f2f2f2;
-  
-  
 }
 
 .submit {
@@ -70,19 +95,25 @@ form {
     border-radius: 0px 15px 15px 0px;
     border-color: #0065FC;
     background-color: #0065FC;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
 }
 
 /*filtres*/
 
 .filtre-eco {
     display: flex;
-    justify-content:space-between;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .filtre {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content:center;
     width: 226px;
     height: 50px;
     border: solid 2px;
@@ -90,29 +121,41 @@ form {
     border-color: #d9d9d9;
 }
 
+.info-plus-de {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+
+
 /*section hebergement et aside populaires*/
 
 .hebergements-populaires {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-between; /* ne fonctionne pas ??? */
 }
 
 
 /*hebergements*/
 
 .selection-hebergements {
+
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
  
 }
+
 .hebergements {
     width: 880px;
     height: 626px;
     background-color: #F2F2F2;
     border-radius: 20px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around ;
 }
 
 .hebergement {
@@ -133,19 +176,28 @@ form {
 }
 
 .info-hebergement {
+
     background-color: #FFFFFF;
-    border: solid 5px #FFFFF;
+    border: solid 5px #FFFFFF;
     border-radius: 0px 0px 20px 20px;
 }
 /*populaires*/
 
-.populaires {
+aside {
     width: 420px;
     height: 625px;
     border-radius: 20px 20px 20px 20px;
     background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    
 }
 
+.selection-populaires {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .titre-icone {
     display: flex;
     flex-direction: row;
@@ -155,7 +207,6 @@ form {
 .article-populaire{
     display: flex;
     flex-direction: row;
-    justify-content: center;
     width: 343px;
     height: 144px;
 }
@@ -168,6 +219,8 @@ form {
 }
 
 .info-populaire{
+    width: 196px;
+    height: 144px;
     display: flex;
     flex-direction: column;
     border: solid 5px #FFFFFF;
@@ -180,13 +233,12 @@ form {
 .selection-activites {
     display: flex;
     flex-direction: row;
-    justify-content: space-around
-    border: ;
+    justify-content: space-around;
 }
 
 .activite {
     width: 302px;
-    height:445px;
+    height:444,51px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -205,11 +257,14 @@ form {
 /*pied de page*/
 
 footer {
-    display: flex;
-   flex-direction: row;
-   justify-content: space-around;
     width: 1339px;
     height: 255px;
+    left: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #F2F2F2;
+    
 }
 
 
