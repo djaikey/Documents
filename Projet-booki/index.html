@@ -25,8 +25,8 @@
                 <header> 
                     <img src="images\logo\Booki.png" alt="Logo Booki" class="logo-booki">
                     <nav>
-                        <span class="choix"><p class="choix-nav">Hébergement</p></span>
-                        <p class="choi-nav">Activités</p>
+                        <a href="#" class="nav-sections">Hébergement</a>
+                        <a href="#" class="nav-sections">Activités</a>
                     </nav>
                 </header>
 
@@ -39,40 +39,48 @@
                     <!--section recherches-->
 
                     <section class="recherches-filtres">
-                        <h1>Trouvez votre hébergement pour des vacances de rêves </h1>
-                        <P> En plein centre-ville ou en pleine nature </P>
-
+                        <div>
+                            <h1>Trouvez votre hébergement pour des vacances de rêves </h1>
+                            <P> En plein centre-ville ou en pleine nature </P>
+                        </div>
                         <!--formulaire de recherche d'hébergement-->
 
-                            <div class="rechercher">
-                                <form method="get" action="">
-                                    <label class="label-recherche" for="">
-                                        <div class="icone"><i class="fa-solid fa-location-dot"></i></div>
-                                    </label>
-                                    <input class="champs-recherche" type="text">
-                                    <input class="submit" type="submit" value="Rechercher">
-                                    <input type="image" value="" > <!--intégrer le logo dans le bouton submit-->  <i class="fa-solid fa-magnifying-glass"></i>
-                                </form> 
+                       
+                        <form method="get" action="">
+                            <div class="label-recherche">
+                                <div class="icone-recherche"><i class="fa-solid fa-location-dot"></i></div>
                             </div>
+                            <input class="champs-recherche" type="text">
+                            <div class="submit">
+                                <p> Rechercher <div class="icone-loupe"><i class="fa-solid fa-magnifying-glass"></i></div></p>
+                            </div>
+                        </form> 
+                    
 
                         <!--fin formulaire de recherche d'hébergement -->
-
+                    </section>
                         <!--filtres: créer bouton pour chaqune des cathégorie-->
 
-                        <div class="filtrage">
-                            <div class="filtre-eco">
+                        <section class= "filtres">
+                            <div class="elements-filtre">
                                 <h2>Filtres</h2>
-                                    <div class="filtre" ><div class="icone"><i class="fa-solid fa-money-bill-wave"></i></div><span class="label-filtre"><p> Économique</p></span></div>
-                                    <div class="filtre"><div class="icone"><i class="fa-solid fa-person"></i></div><span class="label-filtre"><p>Familial</p></span></div>
-                                    <div class="filtre"><div class="icone"><i class="fa-solid fa-heart"></i></div><span class="label-filtre"><p>Romantique</p></span></div>
-                                    <div class="filtre"><div class="icone"><i class="fa-solid fa-dog"></i></div><span class="label-filtre"><p>Animaux autorisé</p></span></div> 
+                                <div class="filtre" ><div class="icone"><i class="fa-solid fa-money-bill-wave"></i></div><span class="label-filtre"><p> Économique</p></span></div>
+                                <div class="filtre"><div class="icone"><i class="fa-solid fa-person"></i></div><span class="label-filtre"><p>Familial</p></span></div>
+                                <div class="filtre"><div class="icone"><i class="fa-solid fa-heart"></i></div><span class="label-filtre"><p>Romantique</p></span></div>
+                                <div class="filtre"><div class="icone"><i class="fa-solid fa-dog"></i></div><span class="label-filtre"><p>Animaux autorisé</p></span></div> 
                             </div>
-                            <p class="info-plus-de"><div class="logo-info"><div class="logo-info"><i class="fa-solid fa-info"></div></i></div> Plus de 500 logements diponibles dans cette ville</p>
-                        </div>
+                            <div class="info-plus-de">
+                                <div class="icone-i">
+                                    <i class="fa-solid fa-info"></i>
+                                </div>
+                                    Plus de 500 logements diponibles dans cette ville
+                                
+                            </div> 
+                        </section>
 
                         <!--filtres: créer bouton pour chaqune des cathégorie fin-->
 
-                    </section>
+                    
 
                     <!--fin section recherches-->
 
@@ -82,13 +90,13 @@
 
                             <!--section hébergements-->
 
+
                             <section class="hebergements" >
                                 
-                                <div class="titre-hebergements">
-                                    <h2>Hébergements à Marseille</h2>
-                                </div>
+                              
+                                <h2>Hébergements à Marseille</h2>
 
-                                <!--conteneur hébergements-->
+                               
 
                                 <div class="selection-hebergements">
 
@@ -171,9 +179,6 @@
                                     <!--vignette hébergement-->
                                     
                                 </div>
-
-                                        <!--conteneur hébergements-->
-
                             <h2>Afficher plus</h2>
                             </section>
 
