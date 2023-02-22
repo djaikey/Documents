@@ -1,15 +1,19 @@
 /*par défaut*/
 
 body {
-    margin: 0 ;
+    max-width: 1400px;
+    margin: auto;
+    padding: 0px 5px 5px 5px;
     font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
 }
 
 .conteneur-limite {
-    max-width: 1400px;
+    
     margin: auto;
-    padding: 10px;
-    box-sizing: border-box;
+    padding-left: 10px ;
+    padding-right: 10px;
+    
 }
 
 img {
@@ -41,8 +45,6 @@ h3 {
     height: 22px;
     color: #0065FC;
     display: flex;
-    justify-items: self-start;
-
 }
 
 .notes {
@@ -57,6 +59,11 @@ h3 {
     color: #F2F2F2;
 }
 
+a {
+text-decoration: none;
+color: #000000;
+}
+
 /* en-tête de page*/
 
 header {
@@ -67,14 +74,22 @@ header {
 .logo-booki {
     width: 61,09px;
     height: 19px;
+    padding: 30px;
 }
 
-nav {
-    width: 113px;
-    height: 19px;
-    left: 138px;
+nav  {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: start;
+    gap: 20px ;    
+}
+.nav-sections{
+    border-top: 2px solid transparent;
+    padding: 30px;
+}
+.nav-sections:hover {
+    color: #0065FC;
+    border-top-color: #0065FC;
 }
 
 /* section recherche*/
@@ -82,32 +97,40 @@ nav {
 form {
     display: flex;
     justify-items: center;
+    margin-bottom: 40px;
 }
 
 .recherches-filtres {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-
 }
 
 .label-recherche {
-    width: 50px;
-    height:49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: solid 1px;
     border-radius: 15px 0px 0px 15px;
     border-color: #F2F2F2;
+    background-color: #F2F2F2;
 }
 
+.icone-recherche {
+    width: max-content;
+    padding: 20px;
+   
+}
+    
 .champs-recherche {
-    width: 332px;
-    height: 49px;
-    border: solid 1px;
-    border-radius: 15px 15px 15pxd 15px;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
     border-color: #f2f2f2;
 }
 
 .submit {
+    display: flex;
+    flex-direction: row;
     border: solid 1px ;  
     border-radius: 0px 15px 15px 0px;
     border-color: #0065FC;
@@ -119,21 +142,36 @@ form {
     text-align: center;
 }
 
-/*filtres*/
+.icone-loupe {
+    color: transparent;
+}
 
-.filtre-eco {
+/*fin section recherches*/
+
+/* section filtres*/
+
+.filtres {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
 
+}
+
+.elements-filtre{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding-bottom: 30px;
 }
 
 .filtre {
     display: flex;
     flex-direction: row;
     justify-content:center;
-    width: 226px;
-    height: 50px;
+    align-items: center;
+    gap: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     border: solid 2px;
     border-radius: 25px 25px 25px 25px;
     border-color: #d9d9d9;
@@ -146,16 +184,29 @@ background-color: #DEEBFF;
 .label-filtre {
     font-weight: 700;
     font-size: 17px;
-    line-height: 19.96px;
-}
-.info-plus-de {
-    width: 436px;
-    height: 43px;
-    display: flex;
-    flex-direction:row;
-    justify-content: space-around;
 }
 
+.info-plus-de {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+.icone-i {
+    color:#0065FC;
+    border: 1px solid #0065FC;
+    border-radius: 100%;
+    padding: 5px 10px 5px 10px;
+    display: flex;
+    justify-content: center;
+    }
+
+/*fin section filtres*/
+
+/*fin header*/
 
 /*section hebergement et aside populaires*/
 
@@ -209,6 +260,9 @@ background-color: #DEEBFF;
     border: solid 5px #FFFFFF;
     border-radius: 0px 0px 20px 20px;
 }
+
+/*fin hebergements*/
+
 /*populaires*/
 
 aside {
@@ -257,11 +311,14 @@ aside {
     background-color: #FFFFFF;
 }
 
+/*populaires*/
+
+/*fin section hebergement et aside populaires*/
+
 /*section activité*/
 
 .selection-activites {
-    width: 1337px;
-    height: 493px;
+    max-width: fit-content;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -292,12 +349,12 @@ aside {
 }
 
 
+/*fin section activité*/
+
 /*pied de page*/
 
 footer {
-    width: 1339px;
-    height: 255px;
-    left: 48px;
+
     display: flex;
     flex-direction: row;
     justify-content: space-around;
