@@ -3,17 +3,15 @@
 body {
     max-width: 1400px;
     margin: auto;
-    padding: 0px 5px 5px 5px;
+    padding: 0;
     font-family: 'Raleway', sans-serif;
     box-sizing: border-box;
 }
 
 .conteneur-limite {
-    
     margin: auto;
     padding-left: 10px ;
     padding-right: 10px;
-    
 }
 
 img {
@@ -31,13 +29,17 @@ h3 {
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 21px;
+    padding: 0%;
+}
+
+p {
+    padding: 0%;
 }
 
 #info-prix {
-
     font-size: 14px;
     line-height: 16.44px;
+    padding: 0%;
 }
 
 .icone {
@@ -83,10 +85,12 @@ nav  {
     justify-content: start;
     gap: 20px ;    
 }
+
 .nav-sections{
     border-top: 2px solid transparent;
     padding: 30px;
 }
+
 .nav-sections:hover {
     color: #0065FC;
     border-top-color: #0065FC;
@@ -202,7 +206,7 @@ background-color: #DEEBFF;
     padding: 5px 10px 5px 10px;
     display: flex;
     justify-content: center;
-    }
+}
 
 /*fin section filtres*/
 
@@ -223,8 +227,7 @@ background-color: #DEEBFF;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
- 
+    justify-content: left;
 }
 
 .hebergements {
@@ -255,10 +258,18 @@ background-color: #DEEBFF;
 }
 
 .info-hebergement {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: #FFFFFF;
     border: solid 5px #FFFFFF;
     border-radius: 0px 0px 20px 20px;
+}
+
+.nom-prix {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
 }
 
 /*fin hebergements*/
