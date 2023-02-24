@@ -1,90 +1,416 @@
+/*par défaut*/
+
 body {
-    margin: 0 ;
-    font-family: ;
+    max-width: 1400px;
+    margin: auto;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
 }
 
 .conteneur-limite {
-    max-width: 1400px;
     margin: auto;
-    padding: 10px;
-    box-sizing: border-box;
+    padding-left: 10px ;
+    padding-right: 10px;
 }
 
 img {
     object-fit: cover;
 }
 
+h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    padding: 10px;
+}
+
+h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 0%;
+    margin: 0;
+}
+
+p {
+    padding: 0%;
+    margin: 0;
+}
+
+
+
+.icone {
+    width: 22px;
+    height: 22px;
+    color: #0065FC;
+    display: flex;
+}
+
+.notes {
+    width: 68px;
+    height: 12px;
+    display: flex;
+    flex-direction: row;
+    color: #0065FC;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.etoile {
+    color: #F2F2F2;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* en-tête de page*/
+
 header {
     display: flex;
     justify-content: space-between;
 }
-nav {
-    display: flex;
-    justify-content: space-between;
+
+.logo-booki {
+    width: 61,09px;
+    height: 19px;
+    padding: 30px;
 }
-.filtre-eco {
+
+nav  {
     display: flex;
-    justify-content:space-between;
+    flex-direction: row;
+    justify-content: start;
+    gap: 20px ;    
 }
-.hebergement {
+
+.nav-sections{
+    border-top: 2px solid transparent;
+    padding: 30px;
+}
+
+.nav-sections:hover {
+    color: #0065FC;
+    border-top-color: #0065FC;
+}
+
+/* section recherche*/
+
+.recherches-filtres {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    border: 2px;
+    justify-content: space-around; 
+    text-align: center;
 }
+
+form {
+    display: flex;
+    justify-items: center;
+    margin-bottom: 40px;
+}
+
+
+
+.label-recherche {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+    border-color: #F2F2F2;
+    background-color: #F2F2F2;
+}
+
+.icone-recherche {
+    width: max-content;
+    padding: 20px; 
+}
+    
+.champs-recherche {
+    width: 282px;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    border-color: #f2f2f2;
+    text-align: center;
+   
+}
+
+::placeholder {
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 1;
+}
+
+.submit {
+    display: flex;
+    flex-direction: row;
+    border: solid 1px ;  
+    border-radius: 0px 15px 15px 0px;
+    border-color: #0065FC;
+    background-color: #0065FC;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0px 0px 20px;
+}
+
+.icone-loupe {
+    color: transparent;
+}
+
+/*fin section recherches*/
+
+/* section filtres*/
+
+.filtres {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.elements-filtre{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding-bottom: 30px;
+}
+
+.filtre {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    gap: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: solid 2px;
+    border-radius: 25px 25px 25px 25px;
+    border-color: #d9d9d9;
+}
+ 
+.filtre:hover {
+    background-color: #DEEBFF;
+}
+
+.label-filtre {
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.info-plus-de {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+.icone-i {
+    color:#0065FC;
+    border: 1px solid #0065FC;
+    border-radius: 100%;
+    padding: 5px 10px 5px 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/*fin section filtres*/
+
+/*fin header*/
+
+/*section hebergement et aside populaires*/
+
+.hebergements-populaires {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between; 
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    gap: 30px;
+}
+
+
+/*hebergements*/
 
 .selection-hebergements {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    width:750px ;
+    column-gap: 30px;
+    row-gap:30px;
 }
 
-.titre-icone {
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-}
-
-.hebergements-populaires {
+.hebergements {
+    width: 880px;
+    background-color: #F2F2F2;
+    border-radius: 20px 20px 20px 20px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content:space-around ;
 }
 
-.selection-activites {
+.hebergement {
     display: flex;
-    flex-direction: row;
-  }
-
-footer {
-    display: grid;
-    grid-auto-flow: column;
+    flex-direction: column;
+    justify-content: left ;
+    border: 2px;
+    border-radius: 20px 20px 20px 20px;
 }
 
 .image-hebergement {
     width: 246px;
     height: 124px;
-    
+    border: solid 5px #FFFFFF;
+    border-radius: 20px 20px 0px 0px;
+    padding:0;
+   
 }
+
+.info-hebergement {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    background-color: #FFFFFF;
+    border: solid 5px #FFFFFF;
+    border-radius: 0px 0px 20px 20px;
+    padding: 0;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+    margin-bottom:10px;
+   
+}
+
+.nom-prix {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 5px;
+}
+
+/*fin hebergements*/
+
+/*populaires*/
+
+aside {
+    border-radius: 20px 20px 20px 20px;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+}
+
+.titre-populaires {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+
+.selection-populaires {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.titre-icone {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .article-populaire{
     display: flex;
     flex-direction: row;
+    padding: 0;
+    margin: 0;
+    
+   
 }
 
 .image-populaire {
     width: 137px;
     height: 144px;
-   
+   border: solid 5px #FFFFFF;
+   border-radius: 20px 0px 0px 20px;
 }
+
 .info-populaire{
     display: flex;
     flex-direction: column;
+    justify-content:space-between;
+    border: solid 5px #FFFFFF;
+    border-radius: 0px 20px 20px 0px;
+    background-color: #FFFFFF;
+}
+
+.info-prix {
+    font-size: 14px;
+    line-height: 16.44px;
+    padding: 10px;
+    margin: 0px;
+}
+
+/*populaires*/
+
+/*fin section hebergement et aside populaires*/
+
+/*section activité*/
+
+.selection-activites {
+    max-width: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+.activite {
+    width: 302px;
+    height:444,51px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: solid 1px #FFFFFF;
+    border-radius: 20px 20px 20px 20px;
 }
 
 .image-activite {
-width: 302px;
-height: 445px;
-/* erreur de mise en page des images avec object-fit:content */
+    width: 302px;
+    height: 445px;
+    border: solid 1px #FFFFFF;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.info-activite {
+    padding: 25px;
+    text-align: center;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+
+/*fin section activité*/
+
+/*pied de page*/
+
+footer {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #F2F2F2;
 }
