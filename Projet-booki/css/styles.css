@@ -29,11 +29,13 @@ h3 {
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    padding: 0%;
+    padding: 0;
+    margin: 0;
 }
 
 p {
-    padding: 0%;
+    margin: 0;
+    padding: 0;
 }
 
 #info-prix {
@@ -55,6 +57,8 @@ p {
     display: flex;
     flex-direction: row;
     color: #0065FC;
+    margin: 0;
+    padding: 0;
 }
 
 .etoile {
@@ -132,6 +136,15 @@ form {
     border-color: #f2f2f2;
 }
 
+::placeholder{
+    font-size: 18px;
+    color: #000000;
+    font-weight: bold;
+    opacity: 1;
+    display: flex;
+    text-align: center;
+}
+
 .submit {
     display: flex;
     flex-direction: row;
@@ -144,7 +157,8 @@ form {
     font-size: 18px;
     line-height: 21px;
     text-align: center;
-}
+    padding-left: 15px;
+    }
 
 .icone-loupe {
     color: transparent;
@@ -158,7 +172,6 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-
 }
 
 .elements-filtre{
@@ -217,32 +230,29 @@ form {
 .hebergements-populaires {
     display: flex;
     flex-direction: row;
-    justify-content: space-between; /* ne fonctionne pas ??? */
+    justify-content: left; 
+    gap: 30px;
 }
 
-
 /*hebergements*/
+
+.hebergements {
+    background-color: #F2F2F2;
+    border-radius: 20px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+   }
 
 .selection-hebergements {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 
-.hebergements {
-    width: 880px;
-    height: 626px;
-    background-color: #F2F2F2;
-    border-radius: 20px 20px 20px 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content:space-around ;
-}
-
-.hebergement {
-    width: 246 px;
-    height: 199px;
+.vignette-hebergement {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -264,6 +274,8 @@ form {
     background-color: #FFFFFF;
     border: solid 5px #FFFFFF;
     border-radius: 0px 0px 20px 20px;
+    margin: 0;
+    padding:0;
 }
 
 .nom-prix {
@@ -277,8 +289,6 @@ form {
 /*populaires*/
 
 aside {
-    width: 420px;
-    height: 625px;
     border-radius: 20px 20px 20px 20px;
     background-color: #F2F2F2;
     display: flex;
@@ -290,31 +300,30 @@ aside {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 30px;
 }
-.titre-icone {
+
+.titre-populaires {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
+    }
 
 .article-populaire{
     display: flex;
     flex-direction: row;
-    width: 343px;
-    height: 144px;
     
 }
 
 .image-populaire {
     width: 137px;
     height: 144px;
-   border: solid 5px #FFFFFF;
-   border-radius: 20px 0px 0px 20px;
+    border: solid 5px #FFFFFF;
+    border-radius: 20px 0px 0px 20px;
 }
 
 .info-populaire{
-    width: 196px;
-    height: 144px;
+    max-width: max-content;
     display: flex;
     flex-direction: column;
     border: solid 5px #FFFFFF;
@@ -359,7 +368,6 @@ aside {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
 
-
 /*fin section activité*/
 
 /*pied de page*/
@@ -370,7 +378,6 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     background-color: #F2F2F2;
-    
 }
 
 
