@@ -28,7 +28,7 @@ h3 {
     font-weight: 700;
     font-size: 16px;
     padding: 0;
-    margin: 0;
+    margin: 5px;
 }
 
 p {
@@ -231,6 +231,14 @@ form {
     justify-content: left; 
     gap: 25px;
 }
+.hebergements-populaires h2 {
+    
+    font-weight: 700;
+    font-size: 22px;
+    margin-left: 30px;
+    margin-bottom:50px; 
+
+}
 
 /*hebergements*/
 
@@ -242,12 +250,6 @@ form {
     max-width: 880px;
 }
 
-.hebergements h2{
-    font-weight: 700;
-    font-size: 22px;
-    margin-bottom:50px; 
-    margin-left: 30px;
-}
 .selection-hebergements {
     display: flex;
     flex-direction: row;
@@ -308,11 +310,14 @@ aside {
     
 }
 
-aside h2{
-    font-weight: 700;
-    font-size: 22px;
-    margin-left: 30px;
-    margin-bottom:50px; 
+.titre-populaires {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+aside .icone {
+    margin-right:30px ;
 }
 
 .selection-populaires {
@@ -324,13 +329,6 @@ aside h2{
     margin-left: 30px;
     margin-right: 30px;
 }
-
-.titre-populaires {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
 
 .article-populaire{
     display: flex;
@@ -356,7 +354,7 @@ aside h2{
     gap: 20px;
     padding-right:60px;
 }
-
+ 
 /*populaires*/
 
 /*fin section hebergement et aside populaires*/
