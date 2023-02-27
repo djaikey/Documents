@@ -103,6 +103,7 @@ form {
     display: flex;
     justify-items: center;
     margin-bottom: 40px;
+    margin-top: 15px;
 }
 
 .recherches-filtres {
@@ -144,6 +145,7 @@ form {
 .submit {
     display: flex;
     flex-direction: row;
+    justify-content: left;
     border: solid 1px ;  
     border-radius: 0px 15px 15px 0px;
     border-color: #0065FC;
@@ -151,9 +153,8 @@ form {
     color: #FFFFFF;
     font-weight: 700;
     font-size: 18px;
-    line-height: 21px;
     text-align: center;
-    padding-left: 15px;
+    padding: 25px;
 }
 
 .icone-loupe {
@@ -261,6 +262,7 @@ form {
     justify-content: center;
     border: 2px;
     border-radius: 20px 20px 20px 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .image-hebergement {
@@ -279,6 +281,7 @@ form {
     border-radius: 0px 0px 20px 20px;
     margin: 0px;
     padding:8px;
+    
 }
 
 .nom-prix {
@@ -328,7 +331,8 @@ aside .icone {
 .article-populaire{
     display: flex;
     flex-direction: row;
-
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .image-populaire {
