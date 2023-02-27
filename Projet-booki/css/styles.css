@@ -22,7 +22,8 @@ h2 {
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
-    line-height: 26px;
+    margin: 10px;
+    padding-bottom:50px ;
 }
 
 h3 {
@@ -40,7 +41,6 @@ p {
 
 #info-prix {
     font-size: 14px;
-    line-height: 16.44px;
     padding: 0%;
 }
 
@@ -241,7 +241,7 @@ form {
     border-radius: 20px 20px 20px 20px;
     display: flex;
     flex-direction: column;
-   }
+}
 
 .selection-hebergements {
     display: flex;
@@ -275,7 +275,7 @@ form {
     border: solid 5px #FFFFFF;
     border-radius: 0px 0px 20px 20px;
     margin: 0;
-    padding:0;
+    padding:8px;
 }
 
 .nom-prix {
@@ -323,12 +323,13 @@ aside {
 }
 
 .info-populaire{
-    max-width: max-content;
+    max-width: fit-content;
     display: flex;
     flex-direction: column;
     border: solid 5px #FFFFFF;
     border-radius: 0px 20px 20px 0px;
     background-color: #FFFFFF;
+    gap: 20px;
 }
 
 /*populaires*/
@@ -342,7 +343,7 @@ aside {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 50px;
+    gap: 30px;
 }
 
 .activite {
@@ -353,6 +354,7 @@ aside {
     justify-content: space-around;
     border: solid 1px #FFFFFF;
     border-radius: 20px 20px 20px 20px;
+    margin-bottom: 60px;
 }
 
 .image-activite {
@@ -366,6 +368,7 @@ aside {
     text-align: center;
     border-radius: 0px 0px 20px 20px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    padding: 20px;
 }
 
 /*fin section activité*/
