@@ -125,7 +125,6 @@ form {
 .icone-recherche {
     width: max-content;
     padding: 20px;
-   
 }
     
 .champs-recherche {
@@ -232,12 +231,10 @@ form {
     gap: 25px;
 }
 .hebergements-populaires h2 {
-    
     font-weight: 700;
     font-size: 22px;
     margin-left: 30px;
     margin-bottom:50px; 
-
 }
 
 /*hebergements*/
@@ -283,7 +280,6 @@ form {
     border-radius: 0px 0px 20px 20px;
     margin: 0px;
     padding:8px;
-    
 }
 
 .nom-prix {
