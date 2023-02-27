@@ -50,7 +50,7 @@
                             <div class="label-recherche">
                                 <div class="icone-recherche"><i class="fa-solid fa-location-dot"></i></div>
                             </div>
-                            <input class="champs-recherche" type="text">
+                            <input class="champs-recherche" type="text" placeholder="Marseille, France">
                             <div class="submit">
                                 <p> Rechercher <div class="icone-loupe"><i class="fa-solid fa-magnifying-glass"></i></div></p>
                             </div>
@@ -107,7 +107,7 @@
                                         <div class="info-hebergement" >
                                             <div class="nom-prix">
                                                 <h3>Auberge La Canebière</h3>
-                                                <p id="info-prix " >Nuit a partir de 25€</p>
+                                                <p class="info-prix " >Nuit a partir de 25€</p>
                                             </div>
 
                                             <!--note étoiles--> 
@@ -128,7 +128,7 @@
                                         <div class="info-hebergement">
                                             <div class="nom-prix">
                                                 <h3>Hôtel du port</h3>
-                                                <p id="info-prix " >Nuit a partir de 52€</p>
+                                                <p class ="info-prix " >Nuit a partir de 52€</p>
                                             </div>   
 
                                             <!--note étoile-->
@@ -149,7 +149,7 @@
                                         <div class="info-hebergement">
                                             <div class="nom-prix">
                                                 <h3>Hôtel Les mouettes</h3>
-                                                <p id="info-prix " >Nuit a partir de 76€</p>
+                                                <p class ="info-prix " >Nuit a partir de 76€</p>
                                             </div> 
 
                                             <!--note étoile-->
@@ -170,8 +170,7 @@
                                         <div class="info-hebergement">
                                             <div class="nom-prix">
                                                 <h3>Hôtel de la mer</h3>
-                                                <p id="info-prix " >Nuit a partir de 46€</p>
-                                            
+                                                <p class="info-prix " >Nuit a partir de 46€</p>
                                             </div>
 
                                             <!--note étoile-->
@@ -189,8 +188,10 @@
                                     <article class="hebergement">
                                         <img src="images\hebergements\4_small\nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt=" Chambre hôtel le panier"class="image-hebergement">
                                         <div class="info-hebergement">
+                                            <div class="nom-prix" >
                                             <h3>Auberge le Panier</h3>
-                                            <p id="info-prix " >Nuit a partir de 23€</p>
+                                                <p class="info-prix " >Nuit a partir de 23€</p>
+                                            </div>
                                            
                                             <!--note étoile-->
                                            
@@ -208,8 +209,10 @@
                                     <article class="hebergement"><!--vignette hébergement-->
                                         <img src="images\hebergements\4_small\febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Chambre 2 lits simple hôtel chez Amina"class="image-hebergement">
                                         <div class="info-hebergement">
+                                            <div class="nom-prix" >
                                             <h3>Hôtel chez Amina</h3>
-                                            <p id="info-prix " >Nuit a partir de 96€</p>
+                                                <p class="info-prix " >Nuit a partir de 96€</p>
+                                            </div>
                                             <!--note étoile-->
                                             <div class="notes">
                                                 <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="etoile"><i class="fa-solid fa-star"></i></span>
@@ -231,11 +234,7 @@
 
                                     <!-- titre et icone de la section aside-->
 
-                                    <div class="titre-icone">   
-                                        <h2>Les plus populaires </h2> 
-                                        <div  class="icone" ><i class="fa-sharp fa-solid fa-chart-line"></i></div>
-                                    </div> 
-
+                                        <h2 class="titre-populaires">Les plus populaires   <div  class="icone" ><i class="fa-sharp fa-solid fa-chart-line"></i></div></h2> 
                                     <!-- titre et icone de la section aside-->
 
                                     <!--conteneur populaires-->
@@ -252,11 +251,17 @@
                                             <div class="info-populaire">
                                                 <div class="info">
                                                     <h3>hôtel Le soleil du matin</h3>
-                                                    <p id="info-prix " >Nuit a partir de 128€</p>
+                                                    <p class="info-prix " >Nuit a partir de 128€</p>
+                                                </div>
+
+                                                <!--note étoile-->
+                                                <div class="notes"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                                    <div class="etoile">
+                                                        <i class="fa-solid fa-star"></i>
+                                                    </div>
                                                 </div>
                                                 <!--note étoile-->
-                                                <div class="notes"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><div class="etoile"><i class="fa-solid fa-star"></div></i></div>
-                                                <!--note étoile-->
+
                                             </div>
                                             </article>
 
@@ -264,20 +269,28 @@
 
                                         <article class="article-populaire">
                                             <img src="images\hebergements\4_small\aw-creative-VGs8z60yT2c-unsplash.jpg" alt="hébergement chambre d'hôte Au coeur de l'eau"class="image-populaire">
+                                           
+                                            <!--informations article-->
+
                                             <div class="info-populaire">
                                                
                                                 <div class="info">
                                                     <h3>chambre d'hôte Au coeur de l'eau</h3>
-                                                    <p id="info-prix ">Nuit a partir de 71€</p> 
+                                                    <p class="info-prix ">Nuit a partir de 71€</p> 
                                                 </div>
+
                                                 <!--note étoile-->
                                                 <div class="notes">
-                                                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="etoile"><i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                                    <div class="etoile">
+                                                        <i class="fa-solid fa-star"></i>
+                                                    </div>
                                                 </div>
                                                 <!--note étoile-->
+
                                             </div>
 
-                                            <!--informations article-->
+                                            <!--fin informations article-->
 
                                         </article>
 
@@ -289,16 +302,26 @@
                                             <!--informations article-->
 
                                             <div class="info-populaire">
+
+                                                <!--informations article-->
+
                                                 <div class="info">
                                                     <h3>Hôtel Bleu et Blanc</h3>
-                                                    <p id="info-prix">Nuit a partir de 68€</p>
+                                                    <p class="info-prix">Nuit a partir de 68€</p>
+                                                </div>
+
+                                                <!--note étoile-->
+                                                <div class="notes">
+                                                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                                    <div class="etoile">
+                                                        <i class="fa-solid fa-star"></i>
+                                                    </div>
                                                 </div>
                                                 <!--note étoile-->
-                                                <div class="notes"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><div class="etoile"><i class="fa-solid fa-star"></i></div></div>
-                                                <!--note étoile-->
+                                                
                                             </div>
 
-                                            <!--informations article-->
+                                            <!--fin informations article-->
 
                                         </article>
 
