@@ -274,7 +274,6 @@ form {
     border: 2px;
     border-radius: 20px 20px 20px 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
 }
 
 .image-hebergement {
@@ -389,7 +388,6 @@ aside .icone {
     border: solid 1px #FFFFFF;
     border-radius: 20px 20px 20px 20px;
     margin-bottom: 60px;
-    object-fit: fill;
 }
 
 .image-activite {
