@@ -88,7 +88,7 @@ nav  {
     gap: 20px ;    
 }
 
-.nav-sections{
+.nav-sections {
     border-top: 2px solid transparent;
     padding: 30px;
 }
@@ -141,7 +141,7 @@ form {
     padding-right: 30px;
 }
 
-::placeholder{
+::placeholder {
     font-size: 18px;
     color: #000000;
     font-weight: bold;
@@ -183,7 +183,7 @@ form {
     justify-content: space-around;
 }
 
-.elements-filtre{
+.elements-filtre {
     display: flex;
     flex-direction: row;
     gap: 50px;
@@ -284,10 +284,9 @@ form {
 
 .images-hebergement {
     width: 246px;
-    max-height: 124px;
+    height: 124px;
     border: solid 5px #FFFFFF;
     border-radius: 20px 20px 0px 0px;
-    object-fit: cover;
 }
 
 .info-hebergement {
@@ -346,23 +345,22 @@ aside .icone {
     margin-right: 30px;
 }
 
-.article-populaire{
+.vignette-populaire {
     display: flex;
     flex-direction: row;
     border-radius: 20px 20px 20px 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     max-width: 343px;
-
 }
 
 .images-populaire {
     width: 137px;
-    max-height: 144px;
+    height: 144px;
     border: solid 5px #FFFFFF;
     border-radius: 20px 0px 0px 20px;
 }
 
-.info-populaire{
+.info-populaire {
     max-width: fit-content;
     display: flex;
     flex-direction: column;
@@ -420,7 +418,6 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     background-color: #F2F2F2;
-    
 }
 
 .liens-redirection {
