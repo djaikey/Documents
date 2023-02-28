@@ -34,6 +34,7 @@ p {
     font-size: 14px;
     margin: 0;
     padding: 0;
+    margin: 5px;
 }
 
 #info-prix {
@@ -239,6 +240,7 @@ form {
     justify-content: left; 
     gap: 25px;
 }
+
 .hebergements-populaires h2 {
     font-weight: 700;
     font-size: 22px;
@@ -272,6 +274,7 @@ form {
     border: 2px;
     border-radius: 20px 20px 20px 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
 }
 
 .image-hebergement {
@@ -314,7 +317,7 @@ aside {
     background-color: #F2F2F2;
     display: flex;
     flex-direction: column;
-    
+    max-width: 420px;
 }
 
 .titre-populaires {
@@ -342,6 +345,7 @@ aside .icone {
     flex-direction: row;
     border-radius: 20px 20px 20px 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
 }
 
 .image-populaire {
@@ -370,7 +374,7 @@ aside .icone {
 /*section activité*/
 
 .selection-activites {
-    max-width: fit-content;
+    max-width: 1325px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -378,18 +382,18 @@ aside .icone {
 }
 
 .activite {
-    width: 302px;
-    height:444,51px;
+    max-width:880px ;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     border: solid 1px #FFFFFF;
     border-radius: 20px 20px 20px 20px;
     margin-bottom: 60px;
+    object-fit: fill;
 }
 
 .image-activite {
-    width: 302px;
+    max-width: 302px;
     height: 445px;
     border: solid 1px #FFFFFF;
     border-radius: 20px 20px 0px 0px;
@@ -412,7 +416,7 @@ footer {
     justify-content: space-around;
     background-color: #F2F2F2;
     
-    }
+}
 
 .liens-redirection {
     display: flex;
@@ -420,6 +424,7 @@ footer {
     align-items: start ;
     line-height: 30px;
 }
+
 .liste-footer {
     margin: 0;
     padding: 0;
