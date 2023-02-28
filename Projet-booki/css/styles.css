@@ -350,8 +350,7 @@ aside .icone {
     flex-direction: row;
     border-radius: 20px 20px 20px 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    max-width: 343px;
-}
+   }
 
 .images-populaire {
     width: 137px;
