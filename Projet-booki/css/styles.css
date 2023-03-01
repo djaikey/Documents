@@ -233,11 +233,13 @@ justify-content: center;
 }
 
 .icone-i {
+    width: 24px;
+    height: 24px;
     color:#0065FC;
     border: 1px solid #D9D9D9;
     border-radius: 100%;
     padding: 0%;
-    padding: 5px 10px 5px 10px;
+    padding: 10px 10px 5px 10px;
     display: flex;
     justify-content: center;
 }
@@ -272,31 +274,38 @@ justify-content: center;
     display: flex;
     flex-direction: column;
     max-width: 880px;
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 20px;
 }
 
 .selection-hebergements {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 30px;
+    gap: 10px;
 }
 
 .vignette-hebergement {
+    width: 100%;
+    max-height: 199px;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: center;
     border: 2px;
     border-radius: 20px 20px 20px 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
 }
 
 .images-hebergement {
-    width: 246px;
-    height: 124px;
-    border: solid 5px #FFFFFF;
+    width: 100%; 
+    max-height: 124px;
+    border-top: solid 5px #FFFFFF;
+    border-left: solid 5px #FFFFFF ;
+    border-right: solid 5px #FFFFFF ;
     border-radius: 20px 20px 0px 0px;
 }
 
@@ -305,11 +314,11 @@ justify-content: center;
     flex-direction: column;
     justify-content: space-between;
     background-color: #FFFFFF;
-    border: solid 5px #FFFFFF;
     border-radius: 0px 0px 20px 20px;
     margin: 0px;
     padding:8px;
-    
+    width: 100%;
+  
 }
 
 .nom-prix {
