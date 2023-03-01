@@ -1,17 +1,19 @@
 /*par défaut*/
 
 body {
-    max-width: 1400px;
+    
     margin: auto;
     padding: 0%;
     font-family: 'Raleway', sans-serif;
-    box-sizing: border-box;
+    
 }
 
 .conteneur-limite {
+    max-width: 1400px;
     margin: auto;
     padding-left: 10px ;
     padding-right: 10px;
+    box-sizing: border-box;
 }
 
 img {
@@ -21,25 +23,27 @@ img {
 h2 {
     font-weight: 700;
     font-size: 22px;
+    margin: 0%;
 }
 
 h3 {
     font-weight: 700;
     font-size: 16px;
     padding: 0%;
-    margin: 5px;
-}
+    margin: 0%;
+   }
 
 p {
     font-size: 14px;
     margin: 0%;
     padding: 0%;
-    margin: 5px;
+    
 }
 
 #info-prix {
     font-size: 14px;
     padding: 0%;
+    margin: 0%;
 }
 
 .icone {
@@ -76,21 +80,22 @@ header {
 }
 
 .logo-booki {
-    width: 61,09px;
+    width: 61px;
     height: 19px;
-    padding: 30px;
+    margin: 0%;
+    padding: 0%;
+    margin-top: 20px;
 }
 
 nav  {
     display: flex;
     flex-direction: row;
-    justify-content: start;
-    gap: 20px ;    
+    justify-content: space-between;
 }
 
 .nav-sections {
     border-top: 2px solid transparent;
-    padding: 30px;
+    padding: 20px;
 }
 
 .nav-sections:hover {
@@ -104,8 +109,7 @@ form {
     display: flex;
     justify-items: center;
     margin: 0%;
-    margin-bottom: 40px;
-    margin-top: 15px;
+
 }
 
 .recherches-filtres {
