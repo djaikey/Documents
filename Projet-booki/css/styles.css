@@ -459,9 +459,11 @@ footer {
     padding: 20px;
 }
 
-footer h2 {
+footer p {
+    font-weight: 700;
+    font-size: 22px;
     margin: 0%;
-    margin-bottom: 10px;
+    padding: 0%;
 }
 
 .liens-redirection {
