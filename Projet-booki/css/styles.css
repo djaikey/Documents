@@ -1,18 +1,21 @@
 /*par défaut*/
 
-* {
+*{
     box-sizing: border-box;
 }
 
 body {
-    margin: auto;
+    margin: 0%;
     padding: 0%;
     font-family: 'Raleway', sans-serif;
+    row-gap: 50px;
 }
 
 .conteneur-limite {
     max-width: 1400px;
-    margin: auto;
+    margin: 0%;
+    margin: left 10px; 
+    margin: right 10px ;
     padding-left: 10px ;
     padding-right: 10px;
 }
@@ -39,7 +42,6 @@ p {
     font-size: 14px;
     margin: 0%;
     padding: 0%;
-    
 }
 
 #info-prix {
@@ -56,7 +58,6 @@ p {
 }
 
 .notes {
-    
     display: flex;
     flex-direction: row;
     color: #0065FC;
@@ -74,6 +75,13 @@ a {
 }
 
 /* en-tête de page*/
+
+h1 {
+    font-weight: 700;
+    font-size: 22px;
+    margin: 0%;
+    padding: 0%;
+}
 
 header {
     display: flex;
@@ -112,7 +120,7 @@ nav  {
     justify-content: space-around;
 }
 
-    /* section recherche */
+/* section recherche */
 
 form {
     display: flex;
@@ -147,12 +155,15 @@ form {
 }
 
 ::placeholder {
+    width: 100%;
     font-size: 18px;
     color: #000000;
     font-weight: bold;
     opacity: 1;
     display: flex;
-    text-align: center;
+    text-align: left;
+    margin: 0%;
+    padding: 0%;
 }
 
 .submit {
@@ -254,9 +265,9 @@ form {
     justify-content: left; 
     gap:15px;
     width: 100%;
+    margin: 0%;
+    margin-bottom: 40px;
 }
-
-
 
 /*hebergements*/
 
@@ -320,6 +331,9 @@ form {
 }
 
 .afficher {
+    font-weight: 700;
+    color: #000000 ;
+    opacity: 1;
     font-size: 18px;
     margin-top: 30px;
     margin-left:30px;
@@ -346,22 +360,19 @@ aside {
     margin: 0%;
 }
 
-aside .icone {
-    margin:0%;
-
-}
-
 .selection-populaires {
     display: flex;
     flex-direction: column;
+    justify-items: center;
     justify-content: space-between;
     align-items: center;
     gap: 10px;
     margin: 0% ;
     margin-top: 20px;
-    padding: 0%;
+    padding: 0px;
+    padding-left:40px;
+    padding-right:40px;
     width: 100%;
-    
 }
 
 .vignette-populaire {
@@ -371,10 +382,11 @@ aside .icone {
     flex-direction: row;
     border-radius: 20px 20px 20px 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-   }
+}
 
 .images-populaire {
     width: 137px;
+    min-width: 137px;
     height: 144px;
     min-height: 144px;
     border: solid 5px #FFFFFF;
@@ -404,7 +416,8 @@ aside .icone {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    gap: 30px;
+    gap: 5px;
+    margin:0%;
 }
 
 .activite {
@@ -415,6 +428,8 @@ aside .icone {
     border-radius: 20px 20px 20px 20px;
     margin-bottom: 60px;
     width: 25%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    margin-top: 20px;
 }
 
 .image-activite {
@@ -430,7 +445,6 @@ aside .icone {
     border: #FFFFFF;
     border-radius: 0px 0px 20px 20px;
     padding: 20px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
 
 /*fin section activité*/
@@ -442,6 +456,12 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     background-color: #F2F2F2;
+    padding: 20px;
+}
+
+footer h2 {
+    margin: 0%;
+    margin-bottom: 10px;
 }
 
 .liens-redirection {
