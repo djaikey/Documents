@@ -145,6 +145,7 @@ form {
 
     
 .champs-recherche {
+    border: none;
     border-top: solid 1px;
     border-bottom: solid 1px;
     border-color: #f2f2f2;
@@ -155,13 +156,12 @@ form {
 }
 
 ::placeholder {
-    width: 100%;
     font-size: 18px;
     color: #000000;
     font-weight: bold;
     opacity: 1;
     display: flex;
-    text-align: left;
+    text-align: center;
     margin: 0%;
     padding: 0%;
 }
@@ -368,7 +368,7 @@ aside {
     align-items: center;
     gap: 10px;
     margin: 0% ;
-    margin-top: 20px;
+    margin-top: 30px;
     padding: 0px;
     padding-left:40px;
     padding-right:40px;
