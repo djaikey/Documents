@@ -510,10 +510,14 @@ footer p {
 
     /* par défault*/
 
+    /*haeder nav */
+
     header {
         max-width: 940px;
     }
 
+    /*recherche et filtres */
+    
     .filtres {
         display: flex;
         justify-content: left;
@@ -525,6 +529,8 @@ footer p {
         margin-left: 5px;
         margin-right: 5px;
     }
+
+    /*section hébergements section populaire */
 
     .hebergements {
         width: 100%;
@@ -563,6 +569,8 @@ footer p {
         width: 106px;
     }
 
+    /*section activités*/
+
     .selection-activite{
 
     }
@@ -578,7 +586,17 @@ footer p {
     }
 }
 
+@media screen and (max-width: 767px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
 
+  .hebergements-populaires {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
 
 
 
