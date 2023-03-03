@@ -564,9 +564,7 @@ footer p {
     }
 
     .selection-activite{
-        max-width: 890px;
-        display: flex;
-        justify-content:left;
+
     }
 
     .activite {
