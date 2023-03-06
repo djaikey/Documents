@@ -498,7 +498,7 @@ footer p {
    
     /* par défaut */
    
-     * {
+    * {
         box-sizing: border-box;
     }
 
@@ -758,6 +758,7 @@ footer p {
     align-items: left;
     gap: 20px;
     }
+
     footer a {
         margin: 5px;
     }
