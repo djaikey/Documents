@@ -199,6 +199,16 @@ form {
     padding-right: 300px;
 }
 
+.label-et-filtres {
+    display: flex;
+    flex-direction: row;
+}
+
+.boutons-filtre {
+    display: flex;
+    flex-direction: row;
+}
+
 .elements-filtre {
     display: flex;
     flex-direction: row;
@@ -596,7 +606,6 @@ footer p {
     .logo-booki {
        display: flex;
        justify-content: center; 
-       align-items: center;
     }
 
     .nav-sections {
@@ -611,10 +620,74 @@ footer p {
         
     }
 
+    h1 {
+        text-align: center;
+    }
+
+    /*formulaire*/
+
+    form {
+        display: flex;
+        justify-content: center;
+    }
+
+    /*fin formulaire*/
+
+    /* filtres*/
+
+
+    .label-et-filtres {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .boutons-filtre {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .filtre{
+        
+    }
+
+
+    /*fin des filtres*/
+
+    /* section hebergements / populaires*/
+
     .hebergements-populaires {
         display: flex;
         flex-direction: column-reverse;
+        width: 100%;
     }
+
+    /*aside populaires*/
+
+    aside {
+        height: 100%;
+
+    }
+
+    .selection-populaires {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .hebergements {
+        width: 100%;
+    }
+
+    .selection-hebergements {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .vignette-hebergement {
+       
+    }
+
 }
 
 
