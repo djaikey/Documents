@@ -1,4 +1,4 @@
-/*par défaut*/
+/* par défaut */
 
 *{
     box-sizing: border-box;
@@ -73,7 +73,7 @@ a {
     color: #000000;
 }
 
-/* en-tête de page*/
+/* en-tête de page */
 
 h1 {
     font-weight: 700;
@@ -111,7 +111,7 @@ nav  {
     border-top-color: #0065FC;
 }
 
-/* section recherches et filtres*/
+/* section recherches et filtres */
 
 .recherches-filtres {
     display: flex;
@@ -264,11 +264,11 @@ form {
     align-items: center;
 }
 
-/*fin section filtres*/
+/* fin section filtres */
 
-/*fin header*/
+/* fin header */
 
-/*section hebergement et aside populaires*/
+/* section hebergement et aside populaires */
 
 .hebergements-populaires {
     display: flex;
@@ -280,7 +280,7 @@ form {
     margin-bottom: 40px;
 }
 
-/*hebergements*/
+/* hebergements */
 
 .hebergements {
     background-color: #F2F2F2;
@@ -350,9 +350,9 @@ form {
     margin-left:30px;
 }
 
-/*fin hebergements*/
+/* fin hebergements */
 
-/*populaires*/
+/* populaires */
 
 aside {
     border-radius: 20px 20px 20px 20px;
@@ -416,11 +416,11 @@ aside {
     
 }
  
-/*populaires*/
+/* populaires */
 
-/*fin section hebergement et aside populaires*/
+/* fin section hebergement et aside populaires */
 
-/*section activité*/
+/* section activité */
 
 .selection-activites {
     max-width: 1325px;
@@ -458,9 +458,9 @@ aside {
     padding: 20px;
 }
 
-/*fin section activité*/
+/* fin section activité */
 
-/*pied de page*/
+/* pied de page */
 
 footer {
     display: flex;
@@ -492,13 +492,13 @@ footer p {
     align-items: star;
 }
 
-/* responsive tablette*/
+/* responsive tablette */
 
 @media screen and (max-width: 991px) {
    
-    /*par défaut*/
+    /* par défaut */
    
-    * {
+     * {
         box-sizing: border-box;
     }
 
@@ -518,15 +518,15 @@ footer p {
         padding: 0%;
     }
 
-    /* par défault*/
+    /* par défault */
 
-    /*haeder nav */
+    /* haeder nav */
 
     header {
         max-width: 940px;
     }
 
-    /*recherche et filtres */
+    /* recherche et filtres */
     
     .filtres {
         display: flex;
@@ -540,7 +540,7 @@ footer p {
         margin-right: 5px;
     }
 
-    /*section hébergements section populaire */
+    /* section hébergements section populaire */
 
     .hebergements {
         width: 100%;
@@ -579,11 +579,8 @@ footer p {
         width: 106px;
     }
 
-    /*section activités*/
+    /* section activités */
 
-    .selection-activite{
-
-    }
 
     .vignette-activite {
         max-width: 182px;
@@ -596,7 +593,18 @@ footer p {
     }
 }
 
+/* responsive téléphone */
+
 @media screen and (max-width: 767px) {
+    
+    .conteneur-limite{
+        max-width: 767px;
+        margin: 0%;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 0%;
+    }
+    
     header {
         display: flex;
         flex-direction: column;
@@ -621,10 +629,13 @@ footer p {
     }
 
     h1 {
+        display: flex;
+        align-items: center;
         text-align: center;
+        max-width: 100%;
     }
 
-    /*formulaire*/
+    /* formulaire */
 
     form {
         display: flex;
@@ -635,6 +646,9 @@ footer p {
 
     /* filtres*/
 
+    .filtres{
+        width: 100%;
+    }
 
     .label-et-filtres {
         display: flex;
@@ -644,13 +658,15 @@ footer p {
     .boutons-filtre {
         display: flex;
         flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
-    .filtre{
-        
+    .filtre {
+        width: 50%;
+        max-width: 160px;
+        display: flex;
     }
-
-
     /*fin des filtres*/
 
     /* section hebergements / populaires*/
@@ -711,25 +727,40 @@ footer p {
     /*section activite*/
 
 
-    .activites {
+    .section-activites {
         display: flex;
-        flex-direction: column;
+        flex-direction:column;
         justify-content: center;
         align-items: center;
-        max-width: 375px;
     }
+
+    
     .selection-activites {
         display: flex;
         flex-direction: column;
-        align-items: center;
         width: 100%;
+        max-width: 375px;
     }
 
     .vignette-activite {
-        width: 100%;
+        min-width: 100%;
     }
     
+    .image-activite {
+       max-width: 100%;
+    }
+
     /*fin section activite*/
+
+    footer {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 20px;
+    }
+    footer a {
+        margin: 5px;
+    }
 
 }
 
