@@ -647,27 +647,31 @@ footer p {
     /* filtres*/
 
     .filtres{
-        width: 100%;
+        max-width: 767px;
     }
 
     .label-et-filtres {
         display: flex;
         flex-direction: column;
+        width: 100%;
+        
     }
 
     .boutons-filtre {
         display: flex;
         flex-direction: row;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
+        justify-content: space-between
+        flex-wrap : wrap;
+           }
 
     .filtre {
         width: 50%;
-        max-width: 160px;
-        display: flex;
     }
     /*fin des filtres*/
+
+    .info-plus-de {
+        max-width: 298px;
+    }
 
     /* section hebergements / populaires*/
 
