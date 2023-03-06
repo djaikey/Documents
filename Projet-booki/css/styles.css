@@ -587,15 +587,34 @@ footer p {
 }
 
 @media screen and (max-width: 767px) {
-  header {
-    display: flex;
-    flex-direction: column;
-  }
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
 
-  .hebergements-populaires {
-    display: flex;
-    flex-direction: column-reverse;
-  }
+    .logo-booki {
+       display: flex;
+       justify-content: center; 
+       align-items: center;
+    }
+
+    .nav-sections {
+        border-top: transparent;
+        border-bottom: 2px solid transparent;
+        text-align: center;
+        padding: 20px;
+        width: 50%;
+    }
+    .nav-sections:hover {
+        border-bottom-color:#0065FC ;
+        
+    }
+
+    .hebergements-populaires {
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
 
 
