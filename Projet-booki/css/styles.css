@@ -633,7 +633,7 @@ footer p {
         display: flex;
         align-items: center;
         text-align: center;
-        max-width: 100%;
+        max-width: 298px;
     }
 
     /* formulaire */
