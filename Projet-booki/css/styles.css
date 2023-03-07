@@ -194,14 +194,16 @@ form {
 .filtres {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 0%;
-    padding-right: 300px;
 }
 
 .label-et-filtres {
     display: flex;
     flex-direction: row;
+    width: 100%;
+    margin: 0%;
+
 }
 
 .boutons-filtre {
@@ -642,7 +644,10 @@ footer p {
     form {
         display: flex;
         justify-content: center;
+        align-self: center;
         max-width: 332px;
+        margin: 0%;
+        margin-top: 15px;
     }
 
     .label-recherche{
@@ -685,7 +690,9 @@ footer p {
     .boutons-filtre {
         display: flex;
         flex-direction: row;
-        justify-content: space-between
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
     }
 
 
@@ -763,8 +770,8 @@ footer p {
     .section-activites {
         display: flex;
         flex-direction:column;
-        justify-content: center;
         align-items: center;
+        height:100% ;
     }
 
     
