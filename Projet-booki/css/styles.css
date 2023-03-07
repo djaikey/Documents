@@ -699,7 +699,7 @@ footer p {
     /*fin des filtres*/
 
     .info-plus-de {
-        max-width: 298px;
+        width: 298px;
     }
 
     /* section hebergements / populaires*/
