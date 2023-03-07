@@ -613,13 +613,14 @@ footer p {
 
     .logo-booki {
         width: 61.09px;
-       display: flex;
-       justify-content: center; 
+        display: flex;
+        justify-content: center; 
+        align-self: center;
     }
 
     .nav-sections {
         border-top: transparent;
-        border-bottom: 2px solid transparent;
+        border-bottom: 3px solid transparent;
         text-align: center;
         padding: 20px;
         width: 50%;
@@ -633,7 +634,7 @@ footer p {
         display: flex;
         align-items: center;
         text-align: center;
-        max-width: 298px;
+        width: 100%;
     }
 
     /* formulaire */
@@ -641,7 +642,6 @@ footer p {
     form {
         display: flex;
         justify-content: center;
-        align-items: center;
         max-width: 332px;
     }
 
@@ -680,19 +680,21 @@ footer p {
         display: flex;
         flex-direction: column;
         width: 100%;
-        
     }
 
     .boutons-filtre {
         display: flex;
         flex-direction: row;
         justify-content: space-between
-        flex-wrap : wrap;
-        width: 100%;
-        }
+    }
+
 
     .filtre {
-        width: 50%;
+        width: 100%;
+    }
+
+    .filtre .icone p {
+        width:100%;
     }
     /*fin des filtres*/
 
