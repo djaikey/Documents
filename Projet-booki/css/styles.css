@@ -612,6 +612,7 @@ footer p {
     }
 
     .logo-booki {
+        width: 61.09px;
        display: flex;
        justify-content: center; 
     }
@@ -640,8 +641,33 @@ footer p {
     form {
         display: flex;
         justify-content: center;
+        align-items: center;
+        max-width: 332px;
     }
 
+    .label-recherche{
+        width: 100%;
+    }
+    
+    .champs-recherche {
+        width: 100%;
+        height: 100%;
+    }
+
+    .icone-loupe {
+    color: #FFFFFF;
+    }
+
+    .submit {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 49px;
+        height: 100%;
+    }
+
+    .submit p {
+        color: transparent;
+    }
     /*fin formulaire*/
 
     /* filtres*/
@@ -662,7 +688,8 @@ footer p {
         flex-direction: row;
         justify-content: space-between
         flex-wrap : wrap;
-           }
+        width: 100%;
+        }
 
     .filtre {
         width: 50%;
