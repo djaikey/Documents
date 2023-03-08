@@ -12,9 +12,9 @@ body {
 
 .conteneur-limite {
     max-width: 1400px;
-    margin: 0%;
-    margin: left 10px; 
-    margin: right 10px ;
+    margin: 0% ;
+    margin: left auto; 
+    margin: right auto ;
     padding-left: 10px ;
     padding-right: 10px;
 }
@@ -73,6 +73,12 @@ a {
     color: #000000;
 }
 
+article a {
+    background-color: #FFFFFF;
+    border-radius: 20px 20px 20px 20px;
+}
+
+/* fin par défaut*/
 /* en-tête de page */
 
 h1 {
@@ -96,15 +102,18 @@ header {
 }
 
 nav  {
+    width: 324px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
 }
 
 .nav-sections {
     border-top: 2px solid transparent;
     padding: 20px;
+    width: 100%;
+    text-align: center;
 }
+
 
 .nav-sections:hover {
     color: #0065FC;
@@ -201,6 +210,8 @@ form {
 .label-et-filtres {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    gap: 30px;
     width: 100%;
     margin: 0%;
 
@@ -209,6 +220,7 @@ form {
 .boutons-filtre {
     display: flex;
     flex-direction: row;
+    gap: 30px;
 }
 
 .elements-filtre {
@@ -219,13 +231,12 @@ form {
 }
 
 .filtre {
-    max-width: 226px;
-    max-height: 50px;
+
     display: flex;
     flex-direction: row;
     justify-content:center;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
     padding-left: 20px;
     padding-right: 20px;
     border: solid 2px;
@@ -234,6 +245,11 @@ form {
     padding: 20px;
 }
  
+.filtre .icone {
+    display: flex;
+    align-items: center;
+}
+
 .filtre:hover {
     background-color: #DEEBFF;
 }
@@ -275,8 +291,8 @@ form {
 .hebergements-populaires {
     display: flex;
     flex-direction: row;
-    justify-content: left; 
-    gap:15px;
+    justify-content: space-between; 
+    gap:10px;
     width: 100%;
     margin: 0%;
     margin-bottom: 40px;
@@ -291,7 +307,7 @@ form {
     flex-direction: column;
     max-width: 880px;
     margin: 0%;
-    padding: 20px;
+    padding: 40px;
 }
 
 .selection-hebergements {
@@ -300,7 +316,7 @@ form {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    row-gap: 10px;
+    row-gap: 30px;
     margin: 0%;
     margin-top: 30px;
     padding: 0%;
@@ -340,7 +356,7 @@ form {
 .nom-prix {
     display: flex;
     flex-direction: column;
-    padding: 0;
+    padding: 0%;
 }
 
 .afficher {
@@ -348,6 +364,7 @@ form {
     color: #000000 ;
     opacity: 1;
     font-size: 18px;
+    margin: 0%;
     margin-top: 30px;
     margin-left:30px;
 }
@@ -379,7 +396,7 @@ aside {
     justify-items: center;
     justify-content: space-between;
     align-items: center;
-    gap: 10px;
+    gap: 30px;
     margin: 0% ;
     margin-top: 30px;
     padding: 0px;
@@ -396,6 +413,9 @@ aside {
     border-radius: 20px 20px 20px 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+.vignette-populair a {
+    width: 100%;
+}
 
 .images-populaire {
     width: 137px;
@@ -407,8 +427,7 @@ aside {
 }
 
 .info-populaire {
-    max-width: 206px;
-    max-height: 144px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -425,7 +444,7 @@ aside {
 /* section activité */
 
 .selection-activites {
-    max-width: 1325px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
