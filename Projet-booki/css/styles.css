@@ -22,19 +22,22 @@ img {
 }
 
 h1 {
-font-weight: 700;
-font-size: 22px;
+    font-weight: bolder;
+    font-size: 22px;
+    line-height: 25.83px;
+    margin: 0%;
+    margin-bottom: 30px;
 }
 
 h2 {
-    font-weight: 700;
+    font-weight: bolder ;
     font-size: 22px;
     margin: 0%;
     padding: 0%;
 }
 
 h3 {
-    font-weight: 700;
+    font-weight: bolder ;
     font-size: 16px;
     padding: 0%;
     margin: 0%;
@@ -43,6 +46,8 @@ h3 {
 p {
     font-size: 14px;
     margin: 0%;
+    margin-top: 5px;
+    margin-bottom: 5px;
     padding: 0%;
 }
 
@@ -193,7 +198,16 @@ form {
     margin: 0%;
     padding: 0%;
     padding-top: 15px;
-    padding-left: 15px;
+}
+
+.submit p {
+box-sizing: border-box;
+margin: 0%;
+margin-left: 15px;
+padding: 0%;
+display: flex;
+justify-content: center;
+text-align: center;
 }
 
 .icone-loupe {
@@ -259,7 +273,7 @@ form {
 }
 
 .label-filtre {
-    font-weight: 700;
+    font-weight: bolder;
     font-size: 17px;
 }
 
@@ -357,6 +371,10 @@ form {
     width: 100%;
 }
 
+.info-hebergement p {
+    margin-top: 3px;
+}
+
 .nom-prix {
     display: flex;
     flex-direction: column;
@@ -364,7 +382,7 @@ form {
 }
 
 .afficher {
-    font-weight: 700;
+    font-weight: bolder;
     color: #000000 ;
     opacity: 1;
     font-size: 18px;
@@ -417,6 +435,14 @@ aside {
     border-radius: 20px 20px 20px 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
+.vignette-populaire p h3 {
+    margin: 0%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 0%;
+}
+
 .vignette-populair a {
     width: 100%;
 }
@@ -438,7 +464,10 @@ aside {
     border: solid 5px #FFFFFF;
     border-radius: 0px 20px 20px 0px;
     background-color: #FFFFFF;
-    
+}
+.info-populaire .etoile{
+    padding: 0%;
+    padding-bottom: 3px;
 }
  
 /* populaires */
@@ -472,8 +501,6 @@ aside {
     margin-top: 20px;
 }
 
-
-
 .image-activite {
     width: 100%;
     min-height: 445px;
@@ -489,7 +516,7 @@ aside {
     background-color: #FFFFFF;
     border: #FFFFFF;
     border-radius: 0px 0px 20px 20px;
-    padding: 20px;
+    padding: 10px;
 }
 
 /* fin section activité */
@@ -511,6 +538,12 @@ footer p {
     font-size: 22px;
     margin: 0%;
     padding: 0%;
+}
+
+footer h3 {
+    padding: 0%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .liens-redirection {
