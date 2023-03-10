@@ -12,15 +12,18 @@ body {
 
 .conteneur-limite {
     max-width: 1400px;
-    margin: 0% ;
-    margin: left auto; 
-    margin: right auto ;
+    margin:  0 auto;
     padding-left: 10px ;
     padding-right: 10px;
 }
 
 img {
     object-fit: cover;
+}
+
+h1 {
+font-weight: 700;
+font-size: 22px;
 }
 
 h2 {
@@ -406,7 +409,7 @@ aside {
     width: 100%;
 }
 
-.vignette-populaire {
+.vignette-populaire a {
     max-width: 343px;
     max-height: 144px;
     display: flex;
@@ -451,27 +454,29 @@ aside {
     justify-content: space-around;
     gap: 30px;
     margin:0%;
+    margin-bottom:30px;
+    padding:30px;
+    padding-bottom: 30px;
 }
 
-.vignette-activite {
+.vignette-activite a {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     border: solid 1px #FFFFFF;
     border-radius: 20px 20px 20px 20px;
-    margin-bottom: 60px;
+    background-color: #ffffff;
     width: 100%;
+    height: 100%;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
     margin-top: 20px;
 }
 
-.vignette-activite a {
-    width: 100%;
-}
+
 
 .image-activite {
     width: 100%;
-    height: 445px;
+    min-height: 445px;
     border: solid 1px #FFFFFF;
     border-radius: 20px 20px 0px 0px;
 }
@@ -497,6 +502,8 @@ footer {
     justify-content: space-around;
     background-color: #F2F2F2;
     padding: 20px;
+    margin: 0%;
+    margin-top: 30px;
 }
 
 footer p {
@@ -605,15 +612,16 @@ footer p {
     }
 
     .images-populaire {
-        width: 106px;
+        max-width: 106px;
     }
 
     /* section activités */
 
 
-    .vignette-activite {
-        max-width: 182px;
+    .vignette-activite a {
+        max-width: none;
         max-height: 267px;
+        width: 100%;
     }
 
     .image-activite {
