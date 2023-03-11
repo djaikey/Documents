@@ -255,12 +255,10 @@ text-align: center;
     justify-content:center;
     align-items: center;
     gap: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
     border: solid 2px;
     border-radius: 25px 25px 25px 25px;
     border-color: #d9d9d9;
-    padding: 20px;
+    padding: 10px;
 }
  
 .filtre .icone {
@@ -436,7 +434,9 @@ aside {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.vignette-populaire p h3 {
+
+
+.vignette-populaire p  {
     margin: 0%;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -464,7 +464,14 @@ aside {
     border: solid 5px #FFFFFF;
     border-radius: 0px 20px 20px 0px;
     background-color: #FFFFFF;
+    padding-top: 10px;
 }
+
+.info-populair h3 {
+    margin: 0%;
+    margin-top: 10px;
+}
+
 .info-populaire .etoile{
     padding: 0%;
     padding-bottom: 3px;
@@ -502,6 +509,7 @@ aside {
 }
 
 .image-activite {
+    max-width: none;
     width: 100%;
     min-height: 445px;
     border: solid 1px #FFFFFF;
@@ -514,7 +522,6 @@ aside {
     align-items: center;
     text-align: center;
     background-color: #FFFFFF;
-    border: #FFFFFF;
     border-radius: 0px 0px 20px 20px;
     padding: 10px;
 }
@@ -597,7 +604,7 @@ footer h3 {
 
     /* recherche et filtres */
     
-    .filtres {
+    .boutons-filtre {
         display: flex;
         justify-content: left;
         width: 100%;
@@ -607,13 +614,18 @@ footer h3 {
         margin: 0%;
         margin-left: 5px;
         margin-right: 5px;
+        gap: 4px;
+    }
+
+    .label-et-filtres {
+        gap: 7px;
     }
 
     /* section hébergements section populaire */
 
     .hebergements {
         width: 100%;
-        max-width: 890px;
+        max-width: none;
     }
 
     .hebergements-populaires {
@@ -627,7 +639,7 @@ footer h3 {
         height: 278px;
         margin: 0%;
         padding: 20px;
-        max-width: 890px;
+        max-width: none;
     }
 
     .selection-populaires {
@@ -639,7 +651,6 @@ footer h3 {
     }
 
     .vignette-populair {
-       width: 252px;
        margin: 0%;
        padding: 0%;
     }
@@ -659,6 +670,8 @@ footer h3 {
 
     .image-activite {
         width: 100%;
+        min-height: 211px;
+
     }
 }
 
