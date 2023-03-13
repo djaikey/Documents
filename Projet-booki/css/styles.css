@@ -737,17 +737,21 @@ footer h3 {
         align-self: center;
     }
 
+    nav {
+        width: 100%;
+    }
+
     .nav-sections {
-        border-top: transparent;
-        border-bottom: 3px solid transparent;
+        display: flex;
+        border-top: none;
+        border-bottom: 3px solid #F2F2F2;
+        justify-content: center;
         text-align: center;
         padding: 20px;
-        max-width: none;
-        width: 100%;
+        width: 50%;
     }
     .nav-sections:hover {
         border-bottom-color:#0065FC ;
-        
     }
 
     /* formulaire */
@@ -756,7 +760,7 @@ footer h3 {
         display: flex;
         justify-content: center;
         align-self: center;
-        max-width: 332px;
+        max-width: none;
         margin: 0%;
         margin-top: 15px;
     }
@@ -776,13 +780,22 @@ footer h3 {
 
     .submit {
         display: flex;
-        flex-direction: row-reverse;
-        width: 49px;
+        align-items: center;
+        padding: 0%;
         height: 100%;
     }
 
     .submit p {
-        color: transparent;
+        display: none;
+    }
+
+    .submit .icone-loupe {
+        display: block;
+        display: flex;
+        justify-content: center;
+        margin:0%;
+        margin-left: 14.5px;
+        margin-right: 14.5px;
     }
 
     /*fin formulaire*/
@@ -805,6 +818,7 @@ footer h3 {
         justify-content: center;
         flex-wrap: wrap;
         gap: 15px;
+        width: 20%;
     }
 
 
