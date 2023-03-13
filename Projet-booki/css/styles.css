@@ -707,17 +707,16 @@ footer h3 {
         gap: 30px;
     }
     
-    .vignette-activite a {
+    a .vignette-activite  {
         display: flex;
         max-width: none;
-        max-height: 267px;
-        max-width: 182px;
+        max-height: 199px;
     }
 
     .image-activite {
         max-width: none;
-        width: 100%;
-        min-height: 211px;
+        width: 335px;
+        max-height: 124px;
     }
 }
 
@@ -889,7 +888,7 @@ footer h3 {
 
     aside {
         height: 100%;
-        max-width: 375px;
+        width: 100%;
         border-radius: 0%;
     }
 
@@ -915,6 +914,7 @@ footer h3 {
     .hebergements {
         max-width: 375px;
         border-radius: 0%;
+        background-color: #FFFFFF;
     }
 
     .info-hebergement{
@@ -931,7 +931,7 @@ footer h3 {
        width: 100%;
     }
 
-    a .afficher {
+    .afficher  {
         display: none;
     }
 
@@ -945,8 +945,13 @@ footer h3 {
         display: flex;
         flex-direction:column;
         align-items: center;
-        width: 100%;
-        height:100% ;
+    }
+
+    .section-activites h2 {
+        display: flex;
+        justify-content: start;
+        align-self: baseline;
+        margin: 0%;
     }
 
     
@@ -957,18 +962,15 @@ footer h3 {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 100%;
-        max-width: none;
         gap: 10px;
-
     }
 
     .vignette-activite a {
-        width: 100%;
+        gap: 5px;
     }
     
     .image-activite {
-       max-width: none;
+       width: 100%;
     }
 
     /*fin section activite*/
