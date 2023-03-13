@@ -838,14 +838,17 @@ footer h3 {
         flex-direction: row;
         justify-content: center;
         flex-wrap: wrap;
-        gap: 15px;
+        gap: 5px;
+        margin: 0%;
         
     }
 
     .filtre {
-        width: 30%;
+        width: 35%;
         min-width: 160px;
         padding: 0%;
+        margin: 5px;
+        min-height: 50px;
     }
 
     .filtre .icone p {
@@ -861,6 +864,9 @@ footer h3 {
 
     .info-plus-de {
         width: 298px;
+        display: flex;
+        align-self: baseline;
+        margin-left: 10px;
     }
 
     /* section hebergements / populaires*/
@@ -877,7 +883,7 @@ footer h3 {
     aside {
         height: 100%;
         max-width: 375px;
-
+        border-radius: 0%;
     }
 
     .selection-populaires {
@@ -901,6 +907,7 @@ footer h3 {
 
     .hebergements {
         max-width: 375px;
+        border-radius: 0%;
     }
 
     .info-hebergement{
@@ -917,32 +924,44 @@ footer h3 {
        width: 100%;
     }
 
+    a .afficher {
+        display: none;
+    }
+
     /*fin section hebergement*/
 
     /*section activite*/
 
 
     .section-activites {
+        margin-bottom: 0%;
         display: flex;
         flex-direction:column;
         align-items: center;
+        width: 100%;
         height:100% ;
     }
 
     
     .selection-activites {
+        margin: 0%;
+        padding: 0%;
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         width: 100%;
-        max-width: 375px;
+        max-width: none;
+        gap: 10px;
+
     }
 
-    .vignette-activite {
-        min-width: 100%;
+    .vignette-activite a {
+        width: 100%;
     }
     
     .image-activite {
-       max-width: 100%;
+       max-width: none;
     }
 
     /*fin section activite*/
