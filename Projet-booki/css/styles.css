@@ -713,8 +713,7 @@ footer h3 {
     }
 
     .image-activite {
-        max-width: none;
-        width: 335px;
+        max-width: 335px;
         max-height: 124px;
     }
 }
