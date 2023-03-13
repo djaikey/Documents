@@ -844,6 +844,7 @@ footer h3 {
 
     .filtre {
         width: 30%;
+        min-width: 160px;
         padding: 0%;
     }
 
