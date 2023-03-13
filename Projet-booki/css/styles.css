@@ -584,6 +584,7 @@ footer h3 {
         display: flex;
         flex-direction: column;
         justify-content: center;
+
     }
 
     .conteneur-limite{
@@ -594,7 +595,7 @@ footer h3 {
         padding: 0%;
     }
 
-    /* par défault */
+    /*fin par défault */
 
     /* haeder nav */
 
@@ -602,7 +603,7 @@ footer h3 {
         max-width: 940px;
     }
 
-    /* recherche et filtres */
+    /* filtres */
     
     .boutons-filtre {
         display: flex;
@@ -621,24 +622,35 @@ footer h3 {
         gap: 7px;
     }
 
-    /* section hébergements section populaire */
+    /* section hébergements /populaire */
+
+    .hebergements-populaires {
+        max-width: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 50px;
+    }
+
+    /*section hebergements*/
 
     .hebergements {
         width: 100%;
         max-width: none;
     }
 
-    .hebergements-populaires {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+    .selection-hebergements {
+        padding: 0%;
     }
 
+    /*section populaires*/
+
     aside {
+        max-width: none;
         width:100% ;
         height: 278px;
         margin: 0%;
-        padding: 20px;
+        padding: 30px;
         max-width: none;
     }
 
@@ -647,7 +659,8 @@ footer h3 {
         flex-direction: row;
         justify-content: center;
         margin: 0%;
-        padding: 20px;
+        padding: 0%;
+        padding-top: 30px;
     }
 
     .vignette-populair {
@@ -661,17 +674,28 @@ footer h3 {
 
     /* section activités */
 
+    .section-activites h2{
+        margin-top: 60px ;
+    }
 
+    .selection-activites  {
+        max-width: none;
+        margin: 0%;
+        padding-top: 0% ;
+        gap: 30px;
+    }
+    
     .vignette-activite a {
+        display: flex;
         max-width: none;
         max-height: 267px;
-        width: 100%;
+        max-width: 182px;
     }
 
     .image-activite {
+        max-width: none;
         width: 100%;
         min-height: 211px;
-
     }
 }
 
@@ -679,6 +703,8 @@ footer h3 {
 
 @media screen and (max-width: 767px) {
     
+    /*par defaut*/
+
     .conteneur-limite{
         max-width: 767px;
         margin: 0%;
@@ -686,11 +712,22 @@ footer h3 {
         margin-right: 10px;
         padding: 0%;
     }
+
+    h1 {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
     
+    /*fin par defaut*/
+    /* Logo et Nav*/
+
     header {
         display: flex;
         flex-direction: column;
         justify-content: left;
+        gap: 30px;
     }
 
     .logo-booki {
@@ -705,18 +742,12 @@ footer h3 {
         border-bottom: 3px solid transparent;
         text-align: center;
         padding: 20px;
-        width: 50%;
+        max-width: none;
+        width: 100%;
     }
     .nav-sections:hover {
         border-bottom-color:#0065FC ;
         
-    }
-
-    h1 {
-        display: flex;
-        align-items: center;
-        text-align: center;
-        width: 100%;
     }
 
     /* formulaire */
@@ -753,6 +784,7 @@ footer h3 {
     .submit p {
         color: transparent;
     }
+
     /*fin formulaire*/
 
     /* filtres*/
@@ -783,6 +815,7 @@ footer h3 {
     .filtre .icone p {
         width:100%;
     }
+
     /*fin des filtres*/
 
     .info-plus-de {
@@ -832,6 +865,7 @@ footer h3 {
     .info-hebergement{
         width: 100%;
     }
+
     .selection-hebergements {
         display: flex;
         flex-direction: column;
@@ -871,6 +905,8 @@ footer h3 {
     }
 
     /*fin section activite*/
+
+    /*footer*/
 
     footer {
     display: flex;
