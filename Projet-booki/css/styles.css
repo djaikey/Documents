@@ -931,7 +931,7 @@ footer h3 {
     }
 
     .vignette-hebergement {
-       width: 100%;
+       width: 335px;
     }
 
     .afficher  {
@@ -969,11 +969,14 @@ footer h3 {
     }
 
     .vignette-activite a {
+        min-width: 335px;
         gap: 5px;
     }
     
     .image-activite {
        width: 100%;
+       min-height: none;
+       height: 124px;
     }
 
     /*fin section activite*/
