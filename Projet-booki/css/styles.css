@@ -609,6 +609,13 @@ footer h3 {
         display: flex;
         flex-direction: column;
     }
+
+    .filtres h2 {
+        display: flex;
+        justify-content: flex-start;
+        align-self: baseline;
+        font-size: 18px;
+    }
     
     .elements-filtre{
         display: flex;
