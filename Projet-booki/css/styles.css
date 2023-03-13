@@ -818,7 +818,13 @@ footer h3 {
     /* filtres*/
 
     .filtres{
-        max-width: 767px;
+        max-width: none;
+    }
+
+    .elements-filtre {
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
     }
 
     .label-et-filtres {
@@ -833,16 +839,21 @@ footer h3 {
         justify-content: center;
         flex-wrap: wrap;
         gap: 15px;
-        width: 20%;
+        
     }
 
-
     .filtre {
-        width: 100%;
+        width: 30%;
+        padding: 0%;
     }
 
     .filtre .icone p {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
         width:100%;
+        overflow-wrap: ;
     }
 
     /*fin des filtres*/
