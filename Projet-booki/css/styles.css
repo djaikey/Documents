@@ -710,7 +710,7 @@ footer h3 {
     a .vignette-activite  {
         max-width: none;
         display: flex;
-        max-height: 199px;
+        height: 267px;
     }
 
     .image-activite {
@@ -968,14 +968,11 @@ footer h3 {
         gap: 10px;
     }
 
-    .vignette-activite  {
-        min-width: 335px;
+    a .vignette-activite  {
+        max-width: 335px;        
         gap: 5px;
     }
 
-    .image-activite {
-       width: 100%;
-    }
 
     /*fin section activite*/
 
