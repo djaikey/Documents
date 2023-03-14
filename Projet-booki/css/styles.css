@@ -461,7 +461,6 @@ aside {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border: solid 5px #FFFFFF;
     border-radius: 0px 20px 20px 0px;
     background-color: #FFFFFF;
     padding-top: 10px;
@@ -683,7 +682,7 @@ footer h3 {
     .selection-populaires {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-between;
         margin: 0%;
         padding: 0%;
         padding-top: 30px;
@@ -692,12 +691,16 @@ footer h3 {
 
     .vignette-populaire {
         width:30%;
-        min-width: none;
+        min-width: 220px;
     }
 
     .vignette-populaire a {
         margin: 0%;
         padding: 0%;
+    }
+
+    .info-populair {
+    padding-bottom:5px;
     }
 
     .images-populaire {
@@ -714,6 +717,7 @@ footer h3 {
     .selection-activites  {
         max-width: none;
         margin: 0%;
+        margin-top: 30px;
         padding-top: 0% ;
         gap: 30px;
     }
@@ -737,10 +741,7 @@ footer h3 {
     /*par defaut*/
 
     .conteneur-limite{
-        max-width: 767px;
         margin: 0%;
-        margin-left: 10px;
-        margin-right: 10px;
         padding: 0%;
     }
 
@@ -752,8 +753,8 @@ footer h3 {
     h1 {
         display: flex;
         align-items: center;
-        text-align: center;
         width: 100%;
+        margin-top: 31px;
     }
     
     /*fin par defaut*/
@@ -790,12 +791,15 @@ footer h3 {
         border-bottom-color:#0065FC ;
     }
 
+    .recherches-filtres { 
+        padding: 20px;
+    }
+
     /* formulaire */
 
     form {
         display: flex;
         justify-content: center;
-        align-self: center;
         max-width: none;
         margin: 0%;
         margin-top: 15px;
@@ -840,6 +844,7 @@ footer h3 {
 
     .filtres{
         max-width: none;
+        padding:20px;
     }
 
     .elements-filtre {
@@ -851,17 +856,17 @@ footer h3 {
     .label-et-filtres {
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
         width: 100%;
     }
 
     .boutons-filtre {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-between;
         flex-wrap: wrap;
         gap: 5px;
         margin: 0%;
-        
     }
 
     .filtre {
@@ -877,7 +882,6 @@ footer h3 {
     /*fin des filtres*/
 
     .info-plus-de {
-        width: 298px;
         display: flex;
         align-self: baseline;
         margin-left: 10px;
@@ -898,16 +902,22 @@ footer h3 {
         height: 100%;
         width: 100%;
         border-radius: 0%;
+        padding: 20px;
     }
 
     .selection-populaires {
         display: flex;
         flex-direction: column;
+        gap: 11px;
     }
 
-    .vignette-populair{
-        min-width:334px ;
-        max-width: 334px;
+    .vignette-populaire {
+        max-width: none;
+        width:100%;
+    }
+
+    .images-populaire{
+        width: 137px;
     }
 
     .info-populaire {
