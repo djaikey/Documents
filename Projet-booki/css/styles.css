@@ -307,7 +307,7 @@ form {
     display: flex;
     flex-direction: row;
     justify-content: space-between; 
-    gap:10px;
+    gap:5px;
     width: 100%;
     margin: 0%;
     margin-bottom: 40px;
@@ -330,8 +330,9 @@ form {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     row-gap: 30px;
+    column-gap: 5px;
     margin: 0%;
     margin-top: 30px;
     padding: 0%;
@@ -347,6 +348,7 @@ form {
     margin: 0%;
     padding:0%;
     width: 30%;
+    min-width: 180px;
 }
 
 .images-hebergement {
@@ -363,7 +365,7 @@ form {
     background-color: #FFFFFF;
     border-radius: 0px 0px 20px 20px;
     margin: 0%;
-    padding:10px;
+    padding:6px;
     padding-top: 0%;
     width: 100%;
 }
@@ -423,6 +425,7 @@ aside {
 
 .vignette-populaire{
     width: 100%;
+    min-width: 254px;
 }
 
 .vignette-populaire a {
@@ -485,7 +488,7 @@ aside {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    gap: 30px;
+    gap: 40px;
     margin:0%;
     margin-bottom:30px;
     margin-top:20px;
@@ -515,6 +518,7 @@ aside {
 }
 
 .vignette-activite h3 {
+    height: 55px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -611,7 +615,6 @@ footer h3 {
     .filtres h2 {
         display: flex;
         justify-content: flex-start;
-        align-self: baseline;
         font-size: 18px;
     }
     
@@ -632,13 +635,13 @@ footer h3 {
         margin: 0%;
         margin-left: 5px;
         margin-right: 5px;
-        padding: 20px;
         gap: 4px;
     }
 
     .label-et-filtres {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        align-items: center;
         gap: 7px;
     }
 
@@ -663,6 +666,10 @@ footer h3 {
         padding: 0%;
     }
 
+    .info-hebergement {
+        padding: 0px 10px 10px;
+    }
+
     /*section populaires*/
 
     aside {
@@ -670,8 +677,7 @@ footer h3 {
         width:100% ;
         height: 278px;
         margin: 0%;
-        padding: 30px;
-        max-width: none;
+        padding: 40px;
     }
 
     .selection-populaires {
@@ -681,16 +687,22 @@ footer h3 {
         margin: 0%;
         padding: 0%;
         padding-top: 30px;
+        gap: 5px;
     }
 
-    .vignette-populair a {
-        max-width: ;
+    .vignette-populaire {
+        width:30%;
+        min-width: none;
+    }
+
+    .vignette-populaire a {
         margin: 0%;
         padding: 0%;
     }
 
     .images-populaire {
         max-width: 100%;
+        min-width: 106px;
     }
 
     /* section activités */
