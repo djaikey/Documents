@@ -200,13 +200,13 @@ form {
 }
 
 .submit p {
-box-sizing: border-box;
-margin: 0%;
-margin-left: 15px;
-padding: 0%;
-display: flex;
-justify-content: center;
-text-align: center;
+    box-sizing: border-box;
+    margin: 0%;
+    margin-left: 15px;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 .icone-loupe {
@@ -915,9 +915,10 @@ footer h3 {
 
 
     .hebergements {
-        max-width: 375px;
+        max-width: 100%;
         border-radius: 0%;
         background-color: #FFFFFF;
+        padding-right: 20px;
     }
 
     .hebergements h2 {
