@@ -385,7 +385,6 @@ form {
     font-size: 18px;
     margin: 0%;
     margin-top: 30px;
-    margin-left:30px;
 }
 
 /* fin hebergements */
@@ -399,7 +398,7 @@ aside {
     flex-direction: column;
     width: 420px;
     margin: 0%;
-    padding: 20px;
+    padding: 40px;
 }
 
 .titre-populaires {
@@ -419,8 +418,10 @@ aside {
     margin: 0% ;
     margin-top: 30px;
     padding: 0px;
-    padding-left:40px;
-    padding-right:40px;
+    width: 100%;
+}
+
+.vignette-populaire{
     width: 100%;
 }
 
@@ -442,9 +443,6 @@ aside {
     padding: 0%;
 }
 
-.vignette-populair a {
-    width: 100%;
-}
 
 .images-populaire {
     width: 137px;
@@ -490,28 +488,29 @@ aside {
     gap: 30px;
     margin:0%;
     margin-bottom:30px;
-    padding:30px;
+    margin-top:20px;
     padding-bottom: 30px;
+}
+
+.vignette-activite {
+    width: 24%;
 }
 
 .vignette-activite a {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    border: solid 1px #FFFFFF;
     border-radius: 20px 20px 20px 20px;
     background-color: #ffffff;
     width: 100%;
     height: 100%;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
-    margin-top: 20px;
+    box-shadow: 0 0 16px #0000002e;
 }
 
 .image-activite {
     max-width: none;
     width: 100%;
-    min-height: 445px;
-    border: solid 1px #FFFFFF;
+    height: 389px;
     border-radius: 20px 20px 0px 0px;
 }
 
