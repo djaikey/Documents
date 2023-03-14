@@ -189,7 +189,6 @@ form {
     justify-content: left;
     border: solid 1px ;  
     border-radius: 0px 15px 15px 0px;
-    border-color: #0065FC;
     background-color: #0065FC;
     color: #FFFFFF;
     font-weight: 700;
@@ -565,7 +564,7 @@ footer h3 {
     padding: 0;
     display: flex;
     flex-direction: column;
-    align-items: star;
+    align-items: flex-start;
 }
 
 /* responsive tablette */
@@ -855,13 +854,19 @@ footer h3 {
         min-height: 50px;
     }
 
-    .filtre .icone p {
+    .filtre p {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .filtre .icone  {
         display: flex;
         flex-direction: row;
         justify-content: left;
         align-items: center;
         width:100%;
-        overflow-wrap: ;
     }
 
     /*fin des filtres*/
@@ -985,7 +990,7 @@ footer h3 {
     footer {
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: flex-start;
     gap: 20px;
     }
 
