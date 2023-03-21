@@ -9,7 +9,7 @@ body {
     padding: 0%;
     font-family: 'Raleway', sans-serif;
 }
-
+                                                                                                                                                                                                                                                     
 .conteneur-limite {
     max-width: 1400px;
     margin:  0 auto;
@@ -51,7 +51,7 @@ p {
     padding: 0%;
 }
 
-#info-prix {
+#info-prix {                                                     
     font-size: 14px;
     padding: 0%;
     margin: 0%;
@@ -758,6 +758,7 @@ footer h3 {
     }
     
     /*fin par defaut*/
+    
     /* Logo et Nav*/
 
     header {
@@ -878,8 +879,6 @@ footer h3 {
         justify-content: flex-start;
         padding-left: 13px;
     }
-
-
 
     /*fin des filtres*/
 
