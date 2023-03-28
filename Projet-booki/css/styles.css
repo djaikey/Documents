@@ -546,6 +546,7 @@ footer {
 
 .liste-footer {
     margin: 0;
+    margin-right: 200px;
     padding: 0;
     display: flex;
     flex-direction: column;
@@ -738,9 +739,11 @@ footer h3 {
         max-height: 211px;
     }
 
-    .footer {
-       gap: 100px;
+    .liste-footer{
+        margin: 0%;
+        margin-right:70px;
     }
+
 }
 
 /* responsive téléphone */
@@ -812,7 +815,6 @@ footer h3 {
         display: flex;
         justify-content: center;
         max-width: none;
-        min-width:332px ;
         width: 100%;
         margin: 0%;
         margin-top: 15px;
