@@ -323,7 +323,7 @@ form {
     flex-direction: column;
     max-width: 880px;
     margin: 0%;
-    padding: 30px;
+    padding: 40px;
 }
 
 .selection-hebergements {
@@ -720,6 +720,7 @@ footer h3 {
 
     .section-activites h2{
         margin-top: 60px ;
+        padding-left:10px ;
     }
 
     .selection-activites  {
@@ -884,6 +885,7 @@ footer h3 {
         flex-wrap: wrap;
         gap: 15px;
         margin: 0%;
+        width: 100%;
     }
 
     .filtre {
