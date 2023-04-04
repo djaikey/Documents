@@ -13,8 +13,8 @@ body {
 .conteneur-limite {
     max-width: 1400px;
     margin:  0 auto;
-    padding-left: 9px ;
-    padding-right: 9px;
+    padding-left: 5px ;
+    padding-right: 5px;
 }
 
 img {
