@@ -308,7 +308,7 @@ form {
     display: flex;
     flex-direction: row;
     justify-content: space-between; 
-    gap:5px;
+    gap:2px;
     width: 100%;
     margin: 0%;
     margin-bottom: 40px;
