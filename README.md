@@ -1,4 +1,3 @@
-lien du site : https://djaikey.github.io/P2.-Projet-Booki/
 
 description
 
